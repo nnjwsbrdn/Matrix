@@ -1,0 +1,17 @@
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\bin\Debug\net6.0-windows\Matrix.exe
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\bin\Debug\net6.0-windows\Matrix.deps.json
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\bin\Debug\net6.0-windows\Matrix.runtimeconfig.json
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\bin\Debug\net6.0-windows\Matrix.dll
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\bin\Debug\net6.0-windows\Matrix.pdb
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\obj\Debug\net6.0-windows\Matrix.csproj.AssemblyReference.cache
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\obj\Debug\net6.0-windows\Matrix.Matrix.resources
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\obj\Debug\net6.0-windows\Matrix.csproj.GenerateResource.cache
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\obj\Debug\net6.0-windows\Matrix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\obj\Debug\net6.0-windows\Matrix.AssemblyInfoInputs.cache
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\obj\Debug\net6.0-windows\Matrix.AssemblyInfo.cs
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\obj\Debug\net6.0-windows\Matrix.csproj.CoreCompileInputs.cache
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\obj\Debug\net6.0-windows\Matrix.dll
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\obj\Debug\net6.0-windows\refint\Matrix.dll
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\obj\Debug\net6.0-windows\Matrix.pdb
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\obj\Debug\net6.0-windows\Matrix.genruntimeconfig.cache
+C:\Users\PSCAD\Desktop\MatrixGUI\Matrix\obj\Debug\net6.0-windows\ref\Matrix.dll
