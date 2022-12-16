@@ -1,4 +1,4 @@
 # Matrix
 
-Clone repository start making changes into the code to see the current update
+Clone repository b4 start making changes into the code to see the current update
 
