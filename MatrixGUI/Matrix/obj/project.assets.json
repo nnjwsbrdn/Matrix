@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\PSCAD\\.nuget\\packages\\": {},
+    "C:\\Users\\faizc\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PSCAD\\Desktop\\MatrixGUI\\Matrix\\Matrix.csproj",
+      "projectUniqueName": "C:\\Users\\faizc\\Desktop\\Faiz\\SEM 7\\Comp Softwaree\\WawaCheck\\Matrix\\MatrixGUI\\Matrix\\Matrix.csproj",
       "projectName": "Matrix",
-      "projectPath": "C:\\Users\\PSCAD\\Desktop\\MatrixGUI\\Matrix\\Matrix.csproj",
-      "packagesPath": "C:\\Users\\PSCAD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PSCAD\\Desktop\\MatrixGUI\\Matrix\\obj\\",
+      "projectPath": "C:\\Users\\faizc\\Desktop\\Faiz\\SEM 7\\Comp Softwaree\\WawaCheck\\Matrix\\MatrixGUI\\Matrix\\Matrix.csproj",
+      "packagesPath": "C:\\Users\\faizc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\faizc\\Desktop\\Faiz\\SEM 7\\Comp Softwaree\\WawaCheck\\Matrix\\MatrixGUI\\Matrix\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\PSCAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\faizc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

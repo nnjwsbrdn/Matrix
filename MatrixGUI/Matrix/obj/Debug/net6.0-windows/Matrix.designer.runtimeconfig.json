@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\PSCAD\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\PSCAD\\.nuget\\packages",
+      "C:\\Users\\faizc\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\faizc\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
