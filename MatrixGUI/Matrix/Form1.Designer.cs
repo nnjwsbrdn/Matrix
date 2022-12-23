@@ -167,6 +167,7 @@
             // 
             // TransposeTab
             // 
+            this.TransposeTab.BackColor = System.Drawing.Color.WhiteSmoke;
             this.TransposeTab.Controls.Add(this.label1);
             this.TransposeTab.Controls.Add(this.textBox18);
             this.TransposeTab.Controls.Add(this.textBox17);
@@ -194,7 +195,6 @@
             this.TransposeTab.Size = new System.Drawing.Size(783, 180);
             this.TransposeTab.TabIndex = 0;
             this.TransposeTab.Text = "Transpose";
-            this.TransposeTab.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -270,12 +270,13 @@
             // 
             // TransposeButton
             // 
+            this.TransposeButton.BackColor = System.Drawing.Color.Silver;
             this.TransposeButton.Location = new System.Drawing.Point(205, 52);
             this.TransposeButton.Name = "TransposeButton";
             this.TransposeButton.Size = new System.Drawing.Size(75, 23);
             this.TransposeButton.TabIndex = 9;
             this.TransposeButton.Text = "Transpose";
-            this.TransposeButton.UseVisualStyleBackColor = true;
+            this.TransposeButton.UseVisualStyleBackColor = false;
             this.TransposeButton.Click += new System.EventHandler(this.TransposeButton_Click);
             // 
             // textBox9
@@ -345,6 +346,7 @@
             // 
             // AdditionTab
             // 
+            this.AdditionTab.BackColor = System.Drawing.Color.WhiteSmoke;
             this.AdditionTab.Controls.Add(this.label2);
             this.AdditionTab.Controls.Add(this.AddButton);
             this.AdditionTab.Controls.Add(this.textBox47);
@@ -382,7 +384,7 @@
             this.AdditionTab.Size = new System.Drawing.Size(783, 180);
             this.AdditionTab.TabIndex = 1;
             this.AdditionTab.Text = "Addition";
-            this.AdditionTab.UseVisualStyleBackColor = true;
+            this.AdditionTab.Click += new System.EventHandler(this.AdditionTab_Click);
             // 
             // label2
             // 
@@ -395,12 +397,13 @@
             // 
             // AddButton
             // 
+            this.AddButton.BackColor = System.Drawing.Color.Silver;
             this.AddButton.Location = new System.Drawing.Point(248, 118);
             this.AddButton.Name = "AddButton";
             this.AddButton.Size = new System.Drawing.Size(75, 23);
             this.AddButton.TabIndex = 30;
             this.AddButton.Text = "Addition";
-            this.AddButton.UseVisualStyleBackColor = true;
+            this.AddButton.UseVisualStyleBackColor = false;
             this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
             // textBox47
@@ -637,6 +640,7 @@
             // 
             // SubTab
             // 
+            this.SubTab.BackColor = System.Drawing.Color.WhiteSmoke;
             this.SubTab.Controls.Add(this.label3);
             this.SubTab.Controls.Add(this.SubButton);
             this.SubTab.Controls.Add(this.textBox48);
@@ -674,7 +678,6 @@
             this.SubTab.Size = new System.Drawing.Size(783, 180);
             this.SubTab.TabIndex = 2;
             this.SubTab.Text = "Subtraction";
-            this.SubTab.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -687,12 +690,13 @@
             // 
             // SubButton
             // 
+            this.SubButton.BackColor = System.Drawing.Color.Silver;
             this.SubButton.Location = new System.Drawing.Point(255, 118);
             this.SubButton.Name = "SubButton";
             this.SubButton.Size = new System.Drawing.Size(82, 23);
             this.SubButton.TabIndex = 61;
             this.SubButton.Text = "Subtraction";
-            this.SubButton.UseVisualStyleBackColor = true;
+            this.SubButton.UseVisualStyleBackColor = false;
             this.SubButton.Click += new System.EventHandler(this.SubButton_Click);
             // 
             // textBox48
@@ -929,6 +933,7 @@
             // 
             // MultiTab
             // 
+            this.MultiTab.BackColor = System.Drawing.Color.WhiteSmoke;
             this.MultiTab.Controls.Add(this.label4);
             this.MultiTab.Controls.Add(this.MulButton);
             this.MultiTab.Controls.Add(this.textBox77);
@@ -966,7 +971,6 @@
             this.MultiTab.Size = new System.Drawing.Size(783, 180);
             this.MultiTab.TabIndex = 3;
             this.MultiTab.Text = "Multiplication";
-            this.MultiTab.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -979,12 +983,13 @@
             // 
             // MulButton
             // 
+            this.MulButton.BackColor = System.Drawing.Color.Silver;
             this.MulButton.Location = new System.Drawing.Point(242, 116);
             this.MulButton.Name = "MulButton";
             this.MulButton.Size = new System.Drawing.Size(100, 23);
             this.MulButton.TabIndex = 92;
             this.MulButton.Text = "Multiplication";
-            this.MulButton.UseVisualStyleBackColor = true;
+            this.MulButton.UseVisualStyleBackColor = false;
             this.MulButton.Click += new System.EventHandler(this.MulButton_Click);
             // 
             // textBox77

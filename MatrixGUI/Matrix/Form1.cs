@@ -232,5 +232,10 @@ namespace Matrix
                 label4.Text = "Fill ALL the boxes";
             }
         }
+
+        private void AdditionTab_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
