@@ -4,4 +4,8 @@
 
 - Added a new file for the matrix but idk why it doesnt work or maybe im doing it wrong. Please check. (Faiz)
 
+- Apply class into GUI code. (Everyone) 
+
+- .DLL, .XML otw
+
 
