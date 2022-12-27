@@ -1,0 +1,11 @@
+C:\Users\PSCAD\Desktop\MatrixFinal\MatrixFinal\bin\Debug\MatrixFinal.exe.config
+C:\Users\PSCAD\Desktop\MatrixFinal\MatrixFinal\bin\Debug\MatrixFinal.exe
+C:\Users\PSCAD\Desktop\MatrixFinal\MatrixFinal\bin\Debug\MatrixFinal.pdb
+C:\Users\PSCAD\Desktop\MatrixFinal\MatrixFinal\obj\Debug\MatrixFinal.csproj.AssemblyReference.cache
+C:\Users\PSCAD\Desktop\MatrixFinal\MatrixFinal\obj\Debug\MatrixFinal.csproj.SuggestedBindingRedirects.cache
+C:\Users\PSCAD\Desktop\MatrixFinal\MatrixFinal\obj\Debug\MatrixFinal.Form1.resources
+C:\Users\PSCAD\Desktop\MatrixFinal\MatrixFinal\obj\Debug\MatrixFinal.Properties.Resources.resources
+C:\Users\PSCAD\Desktop\MatrixFinal\MatrixFinal\obj\Debug\MatrixFinal.csproj.GenerateResource.cache
+C:\Users\PSCAD\Desktop\MatrixFinal\MatrixFinal\obj\Debug\MatrixFinal.csproj.CoreCompileInputs.cache
+C:\Users\PSCAD\Desktop\MatrixFinal\MatrixFinal\obj\Debug\MatrixFinal.exe
+C:\Users\PSCAD\Desktop\MatrixFinal\MatrixFinal\obj\Debug\MatrixFinal.pdb
