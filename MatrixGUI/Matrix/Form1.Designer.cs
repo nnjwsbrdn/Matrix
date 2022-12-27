@@ -167,7 +167,7 @@
             // 
             // TransposeTab
             // 
-            this.TransposeTab.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.TransposeTab.BackColor = System.Drawing.Color.LemonChiffon;
             this.TransposeTab.Controls.Add(this.label1);
             this.TransposeTab.Controls.Add(this.textBox18);
             this.TransposeTab.Controls.Add(this.textBox17);
@@ -346,7 +346,7 @@
             // 
             // AdditionTab
             // 
-            this.AdditionTab.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.AdditionTab.BackColor = System.Drawing.Color.Bisque;
             this.AdditionTab.Controls.Add(this.label2);
             this.AdditionTab.Controls.Add(this.AddButton);
             this.AdditionTab.Controls.Add(this.textBox47);
@@ -640,7 +640,7 @@
             // 
             // SubTab
             // 
-            this.SubTab.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.SubTab.BackColor = System.Drawing.Color.MistyRose;
             this.SubTab.Controls.Add(this.label3);
             this.SubTab.Controls.Add(this.SubButton);
             this.SubTab.Controls.Add(this.textBox48);
@@ -933,7 +933,7 @@
             // 
             // MultiTab
             // 
-            this.MultiTab.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.MultiTab.BackColor = System.Drawing.Color.LightGray;
             this.MultiTab.Controls.Add(this.label4);
             this.MultiTab.Controls.Add(this.MulButton);
             this.MultiTab.Controls.Add(this.textBox77);
@@ -971,6 +971,7 @@
             this.MultiTab.Size = new System.Drawing.Size(783, 180);
             this.MultiTab.TabIndex = 3;
             this.MultiTab.Text = "Multiplication";
+            this.MultiTab.Click += new System.EventHandler(this.MultiTab_Click);
             // 
             // label4
             // 

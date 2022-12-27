@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PSCAD\\Desktop\\chickhead\\clone2\\Matric2x2\\MatrixGUI\\Matrix\\Matrix.csproj",
+      "projectUniqueName": "C:\\Users\\PSCAD\\Desktop\\chickhead\\project matrix\\MatrixGUI\\Matrix\\Matrix.csproj",
       "projectName": "Matrix",
-      "projectPath": "C:\\Users\\PSCAD\\Desktop\\chickhead\\clone2\\Matric2x2\\MatrixGUI\\Matrix\\Matrix.csproj",
+      "projectPath": "C:\\Users\\PSCAD\\Desktop\\chickhead\\project matrix\\MatrixGUI\\Matrix\\Matrix.csproj",
       "packagesPath": "C:\\Users\\PSCAD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PSCAD\\Desktop\\chickhead\\clone2\\Matric2x2\\MatrixGUI\\Matrix\\obj\\",
+      "outputPath": "C:\\Users\\PSCAD\\Desktop\\chickhead\\project matrix\\MatrixGUI\\Matrix\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PSCAD\\AppData\\Roaming\\NuGet\\NuGet.Config",

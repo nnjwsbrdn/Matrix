@@ -237,5 +237,10 @@ namespace Matrix
         {
 
         }
+
+        private void MultiTab_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
