@@ -4,7 +4,7 @@
 
 - Added a new file for the matrix but idk why it doesnt work or maybe im doing it wrong. Please check. (Faiz)
 
-- Apply class into GUI code. (Everyone) 
+- Separate GUI into multiple classes , transpose, addition, substraction, multiplication (Wawa & Qawi)
 
 - .DLL, .XML otw
 
