@@ -14,9 +14,21 @@ namespace MatrixFinal
 {
     public partial class Form1 : Form
     {
-        Matrix op1 = new Matrix();
-        Matrix op2 = new Matrix();
-        Matrix result = new Matrix();
+        Matrix trans1 = new Matrix();
+        Matrix trans2 = new Matrix();
+        Matrix transresult = new Matrix();
+
+        Matrix add1 = new Matrix();
+        Matrix add2 = new Matrix();
+        Matrix addresult = new Matrix();
+
+        Matrix sub1 = new Matrix();
+        Matrix sub2 = new Matrix();
+        Matrix subresult = new Matrix();
+
+        Matrix mul1 = new Matrix();
+        Matrix mul2 = new Matrix();
+        Matrix mulresult = new Matrix();
 
         public Form1()
         {
@@ -26,49 +38,47 @@ namespace MatrixFinal
         private void transBut_Click(object sender, EventArgs e)
         {
             TextBox[] array = new TextBox[9];
-            array[0] = textBox1;
-            array[1] = textBox2;
-            array[2] = textBox3;
-            array[3] = textBox4;
-            array[4] = textBox5;
-            array[5] = textBox6;
-            array[6] = textBox7;
-            array[7] = textBox8;
-            array[8] = textBox9;
+            array[0] = MatricT_a;
+            array[1] = MatricT_b;
+            array[2] = MatricT_c;
+            array[3] = MatricT_d;
+            array[4] = MatricT_e;
+            array[5] = MatricT_f;
+            array[6] = MatricT_i;
+            array[7] = MatricT_h;
+            array[8] = MatricT_g;
             if (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "")
             {
-                op1.A = Convert.ToDouble(textBox1.Text);
-                op1.B = Convert.ToDouble(textBox2.Text);
-                op1.C = Convert.ToDouble(textBox3.Text);
-                op1.D = Convert.ToDouble(textBox4.Text);
-                op1.E = Convert.ToDouble(textBox5.Text);
-                op1.F = Convert.ToDouble(textBox6.Text);
-                op1.G = Convert.ToDouble(textBox7.Text);
-                op1.H = Convert.ToDouble(textBox8.Text);
-                op1.I = Convert.ToDouble(textBox9.Text);
+                trans1.A = Convert.ToDouble(MatricT_a.Text);
+                trans1.B = Convert.ToDouble(MatricT_d.Text);
+                trans1.C = Convert.ToDouble(MatricT_g.Text);
+                trans1.D = Convert.ToDouble(MatricT_b.Text);
+                trans1.E = Convert.ToDouble(MatricT_e.Text);
+                trans1.F = Convert.ToDouble(MatricT_h.Text);
+                trans1.G = Convert.ToDouble(MatricT_c.Text);
+                trans1.H = Convert.ToDouble(MatricT_f.Text);
+                trans1.I = Convert.ToDouble(MatricT_i.Text);
 
                 //Doing Transpose
-                result.A = op1.A;
-                result.B = op1.D;
-                result.C = op1.G;
-                result.D = op1.B;
-                result.E = op1.E;
-                result.F = op1.H;
-                result.G = op1.C;
-                result.H = op1.F;
-                result.I = op1.I;
+                transresult.A = trans1.A;
+                transresult.B = trans1.D;
+                transresult.C = trans1.G;
+                transresult.D = trans1.B;
+                transresult.E = trans1.E;
+                transresult.F = trans1.H;
+                transresult.G = trans1.C;
+                transresult.H = trans1.F;
+                transresult.I = trans1.I;
 
-                textBox10.Text = result.A.ToString();
-                textBox17.Text = result.B.ToString();
-                textBox18.Text = result.C.ToString();
-
-                textBox11.Text = result.D.ToString();
-                textBox16.Text = result.E.ToString();
-                textBox15.Text = result.F.ToString();
-
-                textBox12.Text = result.G.ToString();
-                textBox13.Text = result.H.ToString();
-                textBox14.Text = result.I.ToString();
+                MatricT_aT.Text = transresult.A.ToString();
+                MatricT_bT.Text = transresult.B.ToString();
+                MatricT_cT.Text = transresult.C.ToString();
+                MatricT_dT.Text = transresult.D.ToString();
+                MatricT_eT.Text = transresult.E.ToString();
+                MatricT_fT.Text = transresult.F.ToString();
+                MatricT_gT.Text = transresult.G.ToString();
+                MatricT_hT.Text = transresult.H.ToString();
+                MatricT_iT.Text = transresult.I.ToString();
 
                 /*
                 textBox10.Text = textBox1.Text.ToString();
@@ -85,113 +95,194 @@ namespace MatrixFinal
             }
             else
             {
-                label1.Text = "Fill all the boxes";
-
+                TransLabel.Text = "Fill all the boxes";
             }
         }
-
-
         private void AddButton_Click(object sender, EventArgs e)
         {
             TextBox[] array = new TextBox[18];
-            array[0] = textBox19;
-            array[1] = textBox20;
-            array[2] = textBox21;
-            array[3] = textBox22;
-            array[4] = textBox23;
-            array[5] = textBox24;
-            array[6] = textBox25;
-            array[7] = textBox26;
-            array[8] = textBox27;
+            array[0] = MatricA1_a;
+            array[1] = MatricA1_b;
+            array[2] = MatricA1_c;
+            array[3] = MatricA1_d;
+            array[4] = MatricA1_e;
+            array[5] = MatricA1_f;
+            array[6] = MatricA1_g;
+            array[7] = MatricA1_h;
+            array[8] = MatricA1_i;
 
-            array[9] = textBox29;
-            array[10] = textBox30;
-            array[11] = textBox31;
-            array[12] = textBox32;
-            array[13] = textBox33;
-            array[14] = textBox34;
-            array[15] = textBox35;
-            array[16] = textBox36;
-            array[17] = textBox37;
+            array[9] =  MatricA2_a;
+            array[10] = MatricA2_b;
+            array[11] = MatricA2_c;
+            array[12] = MatricA2_d;
+            array[13] = MatricA2_e;
+            array[14] = MatricA2_f;
+            array[15] = MatricA2_g;
+            array[16] = MatricA2_h;
+            array[17] = MatricA2_i;
+
             if (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "" && array[9].Text != "" && array[10].Text != "" && array[11].Text != "" && array[12].Text != "" && array[13].Text != "" && array[14].Text != "" && array[15].Text != "" && array[16].Text != "" && array[17].Text != "")
             {
-                Int64 a = Int64.Parse(textBox19.Text) + Int64.Parse(textBox29.Text);
-                Int64 b = Int64.Parse(textBox20.Text) + Int64.Parse(textBox30.Text);
-                Int64 c = Int64.Parse(textBox21.Text) + Int64.Parse(textBox31.Text);
+                add1.A = Convert.ToDouble(MatricA1_a.Text);
+                add1.B = Convert.ToDouble(MatricA1_b.Text);
+                add1.C = Convert.ToDouble(MatricA1_c.Text);
+                add1.D = Convert.ToDouble(MatricA1_d.Text);
+                add1.E = Convert.ToDouble(MatricA1_e.Text);
+                add1.F = Convert.ToDouble(MatricA1_f.Text);
+                add1.G = Convert.ToDouble(MatricA1_g.Text);
+                add1.H = Convert.ToDouble(MatricA1_h.Text);
+                add1.I = Convert.ToDouble(MatricA1_i.Text);
 
-                Int64 d = Int64.Parse(textBox22.Text) + Int64.Parse(textBox32.Text);
-                Int64 ee = Int64.Parse(textBox23.Text) + Int64.Parse(textBox33.Text);
-                Int64 f = Int64.Parse(textBox24.Text) + Int64.Parse(textBox34.Text);
-                Int64 g = Int64.Parse(textBox25.Text) + Int64.Parse(textBox35.Text);
-                Int64 h = Int64.Parse(textBox26.Text) + Int64.Parse(textBox36.Text);
-                Int64 i = Int64.Parse(textBox27.Text) + Int64.Parse(textBox37.Text);
-                //Int64 b = Int64.Parse(textBox440.Text);
-                //Int64 c = a + b;
-                textBox39.Text = a.ToString();
-                textBox40.Text = b.ToString();
-                textBox41.Text = c.ToString();
-                textBox42.Text = d.ToString();
-                textBox43.Text = ee.ToString();
-                textBox44.Text = f.ToString();
-                textBox45.Text = g.ToString();
-                textBox46.Text = h.ToString();
-                textBox47.Text = i.ToString();
+                add2.A = Convert.ToDouble(MatricA2_a.Text);
+                add2.B = Convert.ToDouble(MatricA2_b.Text);
+                add2.C = Convert.ToDouble(MatricA2_c.Text);
+                add2.D = Convert.ToDouble(MatricA2_d.Text);
+                add2.E = Convert.ToDouble(MatricA2_e.Text);
+                add2.F = Convert.ToDouble(MatricA2_f.Text);
+                add2.G = Convert.ToDouble(MatricA2_g.Text);
+                add2.H = Convert.ToDouble(MatricA2_h.Text);
+                add2.I = Convert.ToDouble(MatricA2_i.Text);
+
+                //Doing Addition Operation
+                addresult.A = add1.A + add2.A;
+                addresult.B = add1.B + add2.B;
+                addresult.C = add1.C + add2.C;
+                addresult.D = add1.D + add2.D;
+                addresult.E = add1.E + add2.E;
+                addresult.F = add1.F + add2.F;
+                addresult.G = add1.G + add2.G;
+                addresult.H = add1.H + add2.H;
+                addresult.I = add1.I + add2.I;
+
+                MatricAR_a.Text = addresult.A.ToString();
+                MatricAR_b.Text = addresult.B.ToString();
+                MatricAR_c.Text = addresult.C.ToString();
+                MatricAR_d.Text = addresult.D.ToString();
+                MatricAR_e.Text = addresult.E.ToString();
+                MatricAR_f.Text = addresult.F.ToString();
+                MatricAR_g.Text = addresult.G.ToString();
+                MatricAR_h.Text = addresult.H.ToString();
+                MatricAR_i.Text = addresult.I.ToString();
+
+                /* Int64 a = long.Parse(MatricA1_a.Text) + long.Parse(MatricA2_a.Text);
+                 Int64 b = Int64.Parse(MatricA1_b.Text) + Int64.Parse(MatricA2_b.Text);
+                 Int64 c = Int64.Parse(MatricA1_c.Text) + Int64.Parse(MatricA2_c.Text);
+
+                 Int64 d = Int64.Parse(MatricA1_d.Text) + Int64.Parse(MatricA2_d.Text);
+                 Int64 ee = Int64.Parse(MatricA1_e.Text) + Int64.Parse(MatricA2_e.Text);
+                 Int64 f = Int64.Parse(MatricA1_f.Text) + Int64.Parse(MatricA2_f.Text);
+                 Int64 g = Int64.Parse(MatricA1_g.Text) + Int64.Parse(MatricA2_g.Text);
+                 Int64 h = Int64.Parse(MatricA1_h.Text) + Int64.Parse(MatricA2_h.Text);
+                 Int64 i = Int64.Parse(MatricA1_i.Text) + Int64.Parse(MatricA2_i.Text);
+                 //Int64 b = Int64.Parse(textBox440.Text);
+                 //Int64 c = a + b;
+                 MatricAR_a.Text = a.ToString();
+                 MatricAR_b.Text = b.ToString();
+                 MatricAR_c.Text = c.ToString();
+                 MatricAR_d.Text = d.ToString();
+                 MatricAR_e.Text = ee.ToString();
+                 MatricAR_f.Text = f.ToString();
+                 MatricAR_g.Text = g.ToString();
+                 MatricAR_h.Text = h.ToString();
+                 MatricAR_i.Text = i.ToString(); */
             }
             else
             {
-                label2.Text = "Fill ALL the boxes";
+                AddLabel.Text = "Fill ALL the boxes";
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             TextBox[] array = new TextBox[18];
-            array[0] = textBox76;
-            array[1] = textBox75;
-            array[2] = textBox74;
-            array[3] = textBox73;
-            array[4] = textBox72;
-            array[5] = textBox71;
-            array[6] = textBox70;
-            array[7] = textBox69;
-            array[8] = textBox68;
+            array[0] = MatricS1_a;
+            array[1] = MatricS1_b;
+            array[2] = MatricS1_c;
+            array[3] = MatricS1_d;
+            array[4] = MatricS1_e;
+            array[5] = MatricS1_f;
+            array[6] = MatricS1_g;
+            array[7] = MatricS1_h;
+            array[8] = MatricS1_i;
 
-            array[9] = textBox66;
-            array[10] = textBox65;
-            array[11] = textBox64;
-            array[12] = textBox63;
-            array[13] = textBox62;
-            array[14] = textBox61;
-            array[15] = textBox60;
-            array[16] = textBox59;
-            array[17] = textBox58;
+            array[9]  = MatricS2_a;
+            array[10] = MatricS2_b;
+            array[11] = MatricS2_c;
+            array[12] = MatricS2_d;
+            array[13] = MatricS2_e;
+            array[14] = MatricS2_f;
+            array[15] = MatricS2_g;
+            array[16] = MatricS2_h;
+            array[17] = MatricS2_i;
+
             if (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "" && array[9].Text != "" && array[10].Text != "" && array[11].Text != "" && array[12].Text != "" && array[13].Text != "" && array[14].Text != "" && array[15].Text != "" && array[16].Text != "" && array[17].Text != "")
             {
-                Int64 a = Int64.Parse(textBox76.Text) - Int64.Parse(textBox66.Text);
-                Int64 b = Int64.Parse(textBox75.Text) - Int64.Parse(textBox65.Text);
-                Int64 c = Int64.Parse(textBox74.Text) - Int64.Parse(textBox64.Text);
+                sub1.A = Convert.ToDouble(MatricS1_a.Text);
+                sub1.B = Convert.ToDouble(MatricS1_b.Text);
+                sub1.C = Convert.ToDouble(MatricS1_c.Text);
+                sub1.D = Convert.ToDouble(MatricS1_d.Text);
+                sub1.E = Convert.ToDouble(MatricS1_e.Text);
+                sub1.F = Convert.ToDouble(MatricS1_f.Text);
+                sub1.G = Convert.ToDouble(MatricS1_g.Text);
+                sub1.H = Convert.ToDouble(MatricS1_h.Text);
+                sub1.I = Convert.ToDouble(MatricS1_i.Text);
 
-                Int64 d = Int64.Parse(textBox73.Text) - Int64.Parse(textBox63.Text);
-                Int64 ee = Int64.Parse(textBox72.Text) - Int64.Parse(textBox62.Text);
-                Int64 f = Int64.Parse(textBox71.Text) - Int64.Parse(textBox61.Text);
-                Int64 g = Int64.Parse(textBox70.Text) - Int64.Parse(textBox60.Text);
-                Int64 h = Int64.Parse(textBox69.Text) - Int64.Parse(textBox59.Text);
-                Int64 i = Int64.Parse(textBox68.Text) - Int64.Parse(textBox58.Text);
-                //Int64 b = Int64.Parse(textBox440.Text);
-                //Int64 c = a + b;
-                textBox56.Text = a.ToString();
-                textBox55.Text = b.ToString();
-                textBox54.Text = c.ToString();
-                textBox53.Text = d.ToString();
-                textBox52.Text = ee.ToString();
-                textBox51.Text = f.ToString();
-                textBox50.Text = g.ToString();
-                textBox49.Text = h.ToString();
-                textBox48.Text = i.ToString();
+                sub2.A = Convert.ToDouble(MatricS2_a.Text);
+                sub2.B = Convert.ToDouble(MatricS2_b.Text);
+                sub2.C = Convert.ToDouble(MatricS2_c.Text);
+                sub2.D = Convert.ToDouble(MatricS2_d.Text);
+                sub2.E = Convert.ToDouble(MatricS2_e.Text);
+                sub2.F = Convert.ToDouble(MatricS2_f.Text);
+                sub2.G = Convert.ToDouble(MatricS2_g.Text);
+                sub2.H = Convert.ToDouble(MatricS2_h.Text);
+                sub2.I = Convert.ToDouble(MatricS2_i.Text);
+
+                //Doing Subtration Operation
+                subresult.A = sub1.A - sub2.A;
+                subresult.B = sub1.B - sub2.B;
+                subresult.C = sub1.C - sub2.C;
+                subresult.D = sub1.D - sub2.D;
+                subresult.E = sub1.E - sub2.E;
+                subresult.F = sub1.F - sub2.F;
+                subresult.G = sub1.G - sub2.G;
+                subresult.H = sub1.H - sub2.H;
+                subresult.I = sub1.I - sub2.I;
+
+                MatricRS_a.Text = subresult.A.ToString();
+                MatricRS_b.Text = subresult.B.ToString();
+                MatricRS_c.Text = subresult.C.ToString();
+                MatricRS_d.Text = subresult.D.ToString();
+                MatricRS_e.Text = subresult.E.ToString();
+                MatricRS_f.Text = subresult.F.ToString();
+                MatricRS_g.Text = subresult.G.ToString();
+                MatricRS_h.Text = subresult.H.ToString();
+                MatricRS_i.Text = subresult.I.ToString();
+
+                /*   Int64 a = Int64.Parse(MatricS1_a.Text) - Int64.Parse(MatricS2_a.Text);
+                   Int64 b = Int64.Parse(MatricS1_b.Text) - Int64.Parse(MatricS2_b.Text);
+                   Int64 c = Int64.Parse(MatricS1_c.Text) - Int64.Parse(MatricS2_c.Text);
+
+                   Int64 d = Int64.Parse(MatricS1_d.Text) - Int64.Parse(MatricS2_d.Text);
+                   Int64 ee = Int64.Parse(MatricS1_e.Text) - Int64.Parse(MatricS2_e.Text);
+                   Int64 f = Int64.Parse(MatricS1_f.Text) - Int64.Parse(MatricS2_f.Text);
+                   Int64 g = Int64.Parse(MatricS1_g.Text) - Int64.Parse(MatricS2_g.Text);
+                   Int64 h = Int64.Parse(MatricS1_h.Text) - Int64.Parse(MatricS2_h.Text);
+                   Int64 i = Int64.Parse(MatricS1_i.Text) - Int64.Parse(MatricS2_i.Text);
+                   //Int64 b = Int64.Parse(textBox440.Text);
+                   //Int64 c = a + b;
+                   MatricRS_a.Text = a.ToString();
+                   MatricRS_b.Text = b.ToString();
+                   MatricRS_c.Text = c.ToString();
+                   MatricRS_d.Text = d.ToString();
+                   MatricRS_e.Text = ee.ToString();
+                   MatricRS_f.Text = f.ToString();
+                   MatricRS_g.Text = g.ToString();
+                   MatricRS_h.Text = h.ToString();
+                   MatricRS_i.Text = i.ToString(); */
             }
             else
             {
-                label3.Text = "Fill ALL the boxes";
+                SubLabel.Text = "Fill ALL the boxes";
             }
         }
 
@@ -199,84 +290,121 @@ namespace MatrixFinal
         private void MulButton_Click(object sender, EventArgs e)
         {
             TextBox[] array = new TextBox[18];
-            array[0] = textBox105;
-            array[1] = textBox104;
-            array[2] = textBox103;
-            array[3] = textBox102;
-            array[4] = textBox101;
-            array[5] = textBox100;
-            array[6] = textBox99;
-            array[7] = textBox98;
-            array[8] = textBox97;
+            array[0] = MatricM1_a;
+            array[1] = MatricM1_b;
+            array[2] = MatricM1_c;
+            array[3] = MatricM1_d;
+            array[4] = MatricM1_e;
+            array[5] = MatricM1_f;
+            array[6] = MatricM1_g;
+            array[7] = MatricM1_h;
+            array[8] = MatricM1_i;
 
-            array[9] = textBox95;
-            array[10] = textBox94;
-            array[11] = textBox93;
-            array[12] = textBox92;
-            array[13] = textBox91;
-            array[14] = textBox90;
-            array[15] = textBox89;
-            array[16] = textBox88;
-            array[17] = textBox87;
+            array[9] = MatricM2_a;
+            array[10] = MatricM2_b;
+            array[11] = MatricM2_c;
+            array[12] = MatricM2_d;
+            array[13] = MatricM2_e;
+            array[14] = MatricM2_f;
+            array[15] = MatricM2_g;
+            array[16] = MatricM2_h;
+            array[17] = MatricM2_i;
+
             if (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "" && array[9].Text != "" && array[10].Text != "" && array[11].Text != "" && array[12].Text != "" && array[13].Text != "" && array[14].Text != "" && array[15].Text != "" && array[16].Text != "" && array[17].Text != "")
             {
-                Int64 a = (Int64.Parse(textBox105.Text) * Int64.Parse(textBox95.Text)) +
-                          (Int64.Parse(textBox104.Text) * Int64.Parse(textBox92.Text)) +
-                          (Int64.Parse(textBox103.Text) * Int64.Parse(textBox89.Text));
+                mul1.A = Convert.ToDouble(MatricM1_a.Text);
+                mul1.B = Convert.ToDouble(MatricM1_b.Text);
+                mul1.C = Convert.ToDouble(MatricM1_c.Text);
+                mul1.D = Convert.ToDouble(MatricM1_d.Text);
+                mul1.E = Convert.ToDouble(MatricM1_e.Text);
+                mul1.F = Convert.ToDouble(MatricM1_f.Text);
+                mul1.G = Convert.ToDouble(MatricM1_g.Text);
+                mul1.H = Convert.ToDouble(MatricM1_h.Text);
+                mul1.I = Convert.ToDouble(MatricM1_i.Text);
 
-                Int64 b = (Int64.Parse(textBox105.Text) * Int64.Parse(textBox94.Text)) +
-                          (Int64.Parse(textBox104.Text) * Int64.Parse(textBox91.Text)) +
-                          (Int64.Parse(textBox103.Text) * Int64.Parse(textBox88.Text));
+                mul2.A = Convert.ToDouble(MatricM2_a.Text);
+                mul2.B = Convert.ToDouble(MatricM2_b.Text);
+                mul2.C = Convert.ToDouble(MatricM2_c.Text);
+                mul2.D = Convert.ToDouble(MatricM2_d.Text);
+                mul2.E = Convert.ToDouble(MatricM2_e.Text);
+                mul2.F = Convert.ToDouble(MatricM2_f.Text);
+                mul2.G = Convert.ToDouble(MatricM2_g.Text);
+                mul2.H = Convert.ToDouble(MatricM2_h.Text);
+                mul2.I = Convert.ToDouble(MatricM2_i.Text);
 
-                Int64 c = (Int64.Parse(textBox105.Text) * Int64.Parse(textBox93.Text)) +
-                          (Int64.Parse(textBox104.Text) * Int64.Parse(textBox90.Text)) +
-                          (Int64.Parse(textBox103.Text) * Int64.Parse(textBox87.Text));
+                //Doing Multiplication Operation
+                mulresult.A =  (mul1.A * mul2.A) + ( mul1.B * mul2.D) + ( mul1.C * mul2.G );
+                mulresult.B =  (mul1.A * mul2.B) + ( mul1.B * mul2.E) + ( mul1.C * mul2.H );
+                mulresult.C =  (mul1.A * mul2.C) + ( mul1.B * mul2.F) + ( mul1.C * mul2.I );
+                mulresult.D =  (mul1.D * mul2.A) + ( mul1.E * mul2.D) + ( mul1.F * mul2.G );
+                mulresult.E =  (mul1.D * mul2.B) + ( mul1.E * mul2.E) + ( mul1.F * mul2.H );
+                mulresult.F =  (mul1.D * mul2.C) + ( mul1.E * mul2.F) + ( mul1.F * mul2.I );
+                mulresult.G =  (mul1.G * mul2.A) + ( mul1.H * mul2.D) + ( mul1.I * mul2.G );
+                mulresult.H =  (mul1.G * mul2.B) + ( mul1.H * mul2.E) + ( mul1.I * mul2.H );
+                mulresult.I =  (mul1.G * mul2.C) + ( mul1.H * mul2.F) + ( mul1.I * mul2.I );
 
-                Int64 d = (Int64.Parse(textBox102.Text) * Int64.Parse(textBox95.Text)) +
-                          (Int64.Parse(textBox101.Text) * Int64.Parse(textBox92.Text)) +
-                          (Int64.Parse(textBox100.Text) * Int64.Parse(textBox89.Text));
+                MatricRM_a.Text = mulresult.A.ToString();
+                MatricRM_b.Text = mulresult.B.ToString();
+                MatricRM_c.Text = mulresult.C.ToString();
+                MatricRM_d.Text = mulresult.D.ToString();
+                MatricRM_e.Text = mulresult.E.ToString();
+                MatricRM_f.Text = mulresult.F.ToString();
+                MatricRM_g.Text = mulresult.G.ToString();
+                MatricRM_h.Text = mulresult.H.ToString();
+                MatricRM_i.Text = mulresult.I.ToString();
 
-                Int64 ee = (Int64.Parse(textBox102.Text) * Int64.Parse(textBox94.Text)) +
-                          (Int64.Parse(textBox101.Text) * Int64.Parse(textBox91.Text)) +
-                          (Int64.Parse(textBox100.Text) * Int64.Parse(textBox88.Text));
+                /*   Int64 a = (Int64.Parse(MatricM1_a.Text) * Int64.Parse(MatricM2_a.Text)) +
+                             (Int64.Parse(MatricM1_b.Text) * Int64.Parse(MatricM2_d.Text)) +
+                             (Int64.Parse(MatricM1_c.Text) * Int64.Parse(MatricM2_g.Text));
 
-                Int64 f = (Int64.Parse(textBox102.Text) * Int64.Parse(textBox93.Text)) +
-                          (Int64.Parse(textBox101.Text) * Int64.Parse(textBox90.Text)) +
-                          (Int64.Parse(textBox100.Text) * Int64.Parse(textBox87.Text));
+                   Int64 b = (Int64.Parse(MatricM1_a.Text) * Int64.Parse(MatricM2_b.Text)) +
+                             (Int64.Parse(MatricM1_b.Text) * Int64.Parse(MatricM2_e.Text)) +
+                             (Int64.Parse(MatricM1_c.Text) * Int64.Parse(MatricM2_h.Text));
 
-                Int64 g = (Int64.Parse(textBox99.Text) * Int64.Parse(textBox95.Text)) +
-                          (Int64.Parse(textBox98.Text) * Int64.Parse(textBox92.Text)) +
-                          (Int64.Parse(textBox97.Text) * Int64.Parse(textBox89.Text));
+                   Int64 c = (Int64.Parse(MatricM1_a.Text) * Int64.Parse(MatricM2_c.Text)) +
+                             (Int64.Parse(MatricM1_b.Text) * Int64.Parse(MatricM2_f.Text)) +
+                             (Int64.Parse(MatricM1_c.Text) * Int64.Parse(MatricM2_i.Text));
 
-                Int64 h = (Int64.Parse(textBox99.Text) * Int64.Parse(textBox94.Text)) +
-                          (Int64.Parse(textBox98.Text) * Int64.Parse(textBox91.Text)) +
-                          (Int64.Parse(textBox97.Text) * Int64.Parse(textBox88.Text));
+                   Int64 d = (Int64.Parse(MatricM1_d.Text) * Int64.Parse(MatricM2_a.Text)) +
+                             (Int64.Parse(MatricM1_e.Text) * Int64.Parse(MatricM2_d.Text)) +
+                             (Int64.Parse(MatricM1_f.Text) * Int64.Parse(MatricM2_g.Text));
 
-                Int64 i = (Int64.Parse(textBox99.Text) * Int64.Parse(textBox93.Text)) +
-                          (Int64.Parse(textBox98.Text) * Int64.Parse(textBox90.Text)) +
-                          (Int64.Parse(textBox97.Text) * Int64.Parse(textBox87.Text));
+                   Int64 ee = (Int64.Parse(MatricM1_d.Text) * Int64.Parse(MatricM2_b.Text)) +
+                             (Int64.Parse(MatricM1_e.Text) * Int64.Parse(MatricM2_e.Text)) +
+                             (Int64.Parse(MatricM1_f.Text) * Int64.Parse(MatricM2_h.Text));
 
-                //Int64 b = Int64.Parse(textBox440.Text);
-                //Int64 c = a + b;
-                textBox85.Text = a.ToString();
-                textBox84.Text = b.ToString();
-                textBox83.Text = c.ToString();
-                textBox82.Text = d.ToString();
-                textBox81.Text = ee.ToString();
-                textBox80.Text = f.ToString();
-                textBox79.Text = g.ToString();
-                textBox78.Text = h.ToString();
-                textBox77.Text = i.ToString();
+                   Int64 f = (Int64.Parse(MatricM1_d.Text) * Int64.Parse(MatricM2_c.Text)) +
+                             (Int64.Parse(MatricM1_e.Text) * Int64.Parse(MatricM2_f.Text)) +
+                             (Int64.Parse(MatricM1_f.Text) * Int64.Parse(MatricM2_i.Text));
+
+                   Int64 g = (Int64.Parse(MatricM1_g.Text) * Int64.Parse(MatricM2_a.Text)) +
+                             (Int64.Parse(MatricM1_h.Text) * Int64.Parse(MatricM2_d.Text)) +
+                             (Int64.Parse(MatricM1_i.Text) * Int64.Parse(MatricM2_g.Text));
+
+                   Int64 h = (Int64.Parse(MatricM1_g.Text) * Int64.Parse(MatricM2_b.Text)) +
+                             (Int64.Parse(MatricM1_h.Text) * Int64.Parse(MatricM2_e.Text)) +
+                             (Int64.Parse(MatricM1_i.Text) * Int64.Parse(MatricM2_h.Text));
+
+                   Int64 i = (Int64.Parse(MatricM1_g.Text) * Int64.Parse(MatricM2_c.Text)) +
+                             (Int64.Parse(MatricM1_h.Text) * Int64.Parse(MatricM2_f.Text)) +
+                             (Int64.Parse(MatricM1_i.Text) * Int64.Parse(MatricM2_i.Text));
+
+                   //Int64 b = Int64.Parse(textBox440.Text);
+                   //Int64 c = a + b;
+                   MatricRM_a.Text = a.ToString();
+                   MatricRM_b.Text = b.ToString();
+                   MatricRM_c.Text = c.ToString();
+                   MatricRM_d.Text = d.ToString();
+                   MatricRM_e.Text = ee.ToString();
+                   MatricRM_f.Text = f.ToString();
+                   MatricRM_g.Text = g.ToString();
+                   MatricRM_h.Text = h.ToString();
+                   MatricRM_i.Text = i.ToString(); */
             }
             else
             {
-                label4.Text = "Fill ALL the boxes";
+                MulLabel.Text = "Fill ALL the boxes";
             }
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

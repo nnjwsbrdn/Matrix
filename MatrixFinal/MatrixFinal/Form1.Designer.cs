@@ -30,122 +30,122 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.transTab = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TransLabel = new System.Windows.Forms.Label();
+            this.MatricT_cT = new System.Windows.Forms.TextBox();
+            this.MatricT_bT = new System.Windows.Forms.TextBox();
+            this.MatricT_eT = new System.Windows.Forms.TextBox();
+            this.MatricT_fT = new System.Windows.Forms.TextBox();
+            this.MatricT_iT = new System.Windows.Forms.TextBox();
+            this.MatricT_hT = new System.Windows.Forms.TextBox();
+            this.MatricT_gT = new System.Windows.Forms.TextBox();
+            this.MatricT_dT = new System.Windows.Forms.TextBox();
+            this.MatricT_aT = new System.Windows.Forms.TextBox();
+            this.MatricT_g = new System.Windows.Forms.TextBox();
+            this.MatricT_h = new System.Windows.Forms.TextBox();
+            this.MatricT_i = new System.Windows.Forms.TextBox();
+            this.MatricT_f = new System.Windows.Forms.TextBox();
+            this.MatricT_e = new System.Windows.Forms.TextBox();
+            this.MatricT_d = new System.Windows.Forms.TextBox();
+            this.MatricT_c = new System.Windows.Forms.TextBox();
+            this.MatricT_b = new System.Windows.Forms.TextBox();
+            this.MatricT_a = new System.Windows.Forms.TextBox();
             this.transBut = new System.Windows.Forms.Button();
             this.addTab = new System.Windows.Forms.TabPage();
-            this.label2 = new System.Windows.Forms.Label();
+            this.AddLabel = new System.Windows.Forms.Label();
             this.AddButton = new System.Windows.Forms.Button();
-            this.textBox47 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.MatricAR_i = new System.Windows.Forms.TextBox();
+            this.MatricAR_h = new System.Windows.Forms.TextBox();
+            this.MatricAR_g = new System.Windows.Forms.TextBox();
+            this.MatricAR_f = new System.Windows.Forms.TextBox();
+            this.MatricAR_e = new System.Windows.Forms.TextBox();
+            this.MatricAR_d = new System.Windows.Forms.TextBox();
+            this.MatricAR_c = new System.Windows.Forms.TextBox();
+            this.MatricAR_b = new System.Windows.Forms.TextBox();
+            this.MatricAR_a = new System.Windows.Forms.TextBox();
             this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.MatricA2_i = new System.Windows.Forms.TextBox();
+            this.MatricA2_h = new System.Windows.Forms.TextBox();
+            this.MatricA2_g = new System.Windows.Forms.TextBox();
+            this.MatricA2_f = new System.Windows.Forms.TextBox();
+            this.MatricA2_e = new System.Windows.Forms.TextBox();
+            this.MatricA2_d = new System.Windows.Forms.TextBox();
+            this.MatricA2_c = new System.Windows.Forms.TextBox();
+            this.MatricA2_b = new System.Windows.Forms.TextBox();
+            this.MatricA2_a = new System.Windows.Forms.TextBox();
             this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.MatricA1_i = new System.Windows.Forms.TextBox();
+            this.MatricA1_h = new System.Windows.Forms.TextBox();
+            this.MatricA1_g = new System.Windows.Forms.TextBox();
+            this.MatricA1_f = new System.Windows.Forms.TextBox();
+            this.MatricA1_e = new System.Windows.Forms.TextBox();
+            this.MatricA1_d = new System.Windows.Forms.TextBox();
+            this.MatricA1_c = new System.Windows.Forms.TextBox();
+            this.MatricA1_b = new System.Windows.Forms.TextBox();
+            this.MatricA1_a = new System.Windows.Forms.TextBox();
             this.subTab = new System.Windows.Forms.TabPage();
-            this.label3 = new System.Windows.Forms.Label();
+            this.SubLabel = new System.Windows.Forms.Label();
             this.SubButton = new System.Windows.Forms.Button();
-            this.textBox48 = new System.Windows.Forms.TextBox();
-            this.textBox49 = new System.Windows.Forms.TextBox();
-            this.textBox50 = new System.Windows.Forms.TextBox();
-            this.textBox51 = new System.Windows.Forms.TextBox();
-            this.textBox52 = new System.Windows.Forms.TextBox();
-            this.textBox53 = new System.Windows.Forms.TextBox();
-            this.textBox54 = new System.Windows.Forms.TextBox();
-            this.textBox55 = new System.Windows.Forms.TextBox();
-            this.textBox56 = new System.Windows.Forms.TextBox();
+            this.MatricRS_i = new System.Windows.Forms.TextBox();
+            this.MatricRS_h = new System.Windows.Forms.TextBox();
+            this.MatricRS_g = new System.Windows.Forms.TextBox();
+            this.MatricRS_f = new System.Windows.Forms.TextBox();
+            this.MatricRS_e = new System.Windows.Forms.TextBox();
+            this.MatricRS_d = new System.Windows.Forms.TextBox();
+            this.MatricRS_c = new System.Windows.Forms.TextBox();
+            this.MatricRS_b = new System.Windows.Forms.TextBox();
+            this.MatricRS_a = new System.Windows.Forms.TextBox();
             this.textBox57 = new System.Windows.Forms.TextBox();
-            this.textBox58 = new System.Windows.Forms.TextBox();
-            this.textBox59 = new System.Windows.Forms.TextBox();
-            this.textBox60 = new System.Windows.Forms.TextBox();
-            this.textBox61 = new System.Windows.Forms.TextBox();
-            this.textBox62 = new System.Windows.Forms.TextBox();
-            this.textBox63 = new System.Windows.Forms.TextBox();
-            this.textBox64 = new System.Windows.Forms.TextBox();
-            this.textBox65 = new System.Windows.Forms.TextBox();
-            this.textBox66 = new System.Windows.Forms.TextBox();
+            this.MatricS2_i = new System.Windows.Forms.TextBox();
+            this.MatricS2_h = new System.Windows.Forms.TextBox();
+            this.MatricS2_g = new System.Windows.Forms.TextBox();
+            this.MatricS2_f = new System.Windows.Forms.TextBox();
+            this.MatricS2_e = new System.Windows.Forms.TextBox();
+            this.MatricS2_d = new System.Windows.Forms.TextBox();
+            this.MatricS2_c = new System.Windows.Forms.TextBox();
+            this.MatricS2_b = new System.Windows.Forms.TextBox();
+            this.MatricS2_a = new System.Windows.Forms.TextBox();
             this.textBox67 = new System.Windows.Forms.TextBox();
-            this.textBox68 = new System.Windows.Forms.TextBox();
-            this.textBox69 = new System.Windows.Forms.TextBox();
-            this.textBox70 = new System.Windows.Forms.TextBox();
-            this.textBox71 = new System.Windows.Forms.TextBox();
-            this.textBox72 = new System.Windows.Forms.TextBox();
-            this.textBox73 = new System.Windows.Forms.TextBox();
-            this.textBox74 = new System.Windows.Forms.TextBox();
-            this.textBox75 = new System.Windows.Forms.TextBox();
-            this.textBox76 = new System.Windows.Forms.TextBox();
+            this.MatricS1_i = new System.Windows.Forms.TextBox();
+            this.MatricS1_h = new System.Windows.Forms.TextBox();
+            this.MatricS1_g = new System.Windows.Forms.TextBox();
+            this.MatricS1_f = new System.Windows.Forms.TextBox();
+            this.MatricS1_e = new System.Windows.Forms.TextBox();
+            this.MatricS1_d = new System.Windows.Forms.TextBox();
+            this.MatricS1_c = new System.Windows.Forms.TextBox();
+            this.MatricS1_b = new System.Windows.Forms.TextBox();
+            this.MatricS1_a = new System.Windows.Forms.TextBox();
             this.mulTab = new System.Windows.Forms.TabPage();
-            this.label4 = new System.Windows.Forms.Label();
+            this.MulLabel = new System.Windows.Forms.Label();
             this.MulButton = new System.Windows.Forms.Button();
-            this.textBox77 = new System.Windows.Forms.TextBox();
-            this.textBox78 = new System.Windows.Forms.TextBox();
-            this.textBox79 = new System.Windows.Forms.TextBox();
-            this.textBox80 = new System.Windows.Forms.TextBox();
-            this.textBox81 = new System.Windows.Forms.TextBox();
-            this.textBox82 = new System.Windows.Forms.TextBox();
-            this.textBox83 = new System.Windows.Forms.TextBox();
-            this.textBox84 = new System.Windows.Forms.TextBox();
-            this.textBox85 = new System.Windows.Forms.TextBox();
+            this.MatricRM_i = new System.Windows.Forms.TextBox();
+            this.MatricRM_h = new System.Windows.Forms.TextBox();
+            this.MatricRM_g = new System.Windows.Forms.TextBox();
+            this.MatricRM_f = new System.Windows.Forms.TextBox();
+            this.MatricRM_e = new System.Windows.Forms.TextBox();
+            this.MatricRM_d = new System.Windows.Forms.TextBox();
+            this.MatricRM_c = new System.Windows.Forms.TextBox();
+            this.MatricRM_b = new System.Windows.Forms.TextBox();
+            this.MatricRM_a = new System.Windows.Forms.TextBox();
             this.textBox86 = new System.Windows.Forms.TextBox();
-            this.textBox87 = new System.Windows.Forms.TextBox();
-            this.textBox88 = new System.Windows.Forms.TextBox();
-            this.textBox89 = new System.Windows.Forms.TextBox();
-            this.textBox90 = new System.Windows.Forms.TextBox();
-            this.textBox91 = new System.Windows.Forms.TextBox();
-            this.textBox92 = new System.Windows.Forms.TextBox();
-            this.textBox93 = new System.Windows.Forms.TextBox();
-            this.textBox94 = new System.Windows.Forms.TextBox();
-            this.textBox95 = new System.Windows.Forms.TextBox();
+            this.MatricM2_i = new System.Windows.Forms.TextBox();
+            this.MatricM2_h = new System.Windows.Forms.TextBox();
+            this.MatricM2_g = new System.Windows.Forms.TextBox();
+            this.MatricM2_f = new System.Windows.Forms.TextBox();
+            this.MatricM2_e = new System.Windows.Forms.TextBox();
+            this.MatricM2_d = new System.Windows.Forms.TextBox();
+            this.MatricM2_c = new System.Windows.Forms.TextBox();
+            this.MatricM2_b = new System.Windows.Forms.TextBox();
+            this.MatricM2_a = new System.Windows.Forms.TextBox();
             this.textBox96 = new System.Windows.Forms.TextBox();
-            this.textBox97 = new System.Windows.Forms.TextBox();
-            this.textBox98 = new System.Windows.Forms.TextBox();
-            this.textBox99 = new System.Windows.Forms.TextBox();
-            this.textBox100 = new System.Windows.Forms.TextBox();
-            this.textBox101 = new System.Windows.Forms.TextBox();
-            this.textBox102 = new System.Windows.Forms.TextBox();
-            this.textBox103 = new System.Windows.Forms.TextBox();
-            this.textBox104 = new System.Windows.Forms.TextBox();
-            this.textBox105 = new System.Windows.Forms.TextBox();
+            this.MatricM1_i = new System.Windows.Forms.TextBox();
+            this.MatricM1_h = new System.Windows.Forms.TextBox();
+            this.MatricM1_g = new System.Windows.Forms.TextBox();
+            this.MatricM1_f = new System.Windows.Forms.TextBox();
+            this.MatricM1_e = new System.Windows.Forms.TextBox();
+            this.MatricM1_d = new System.Windows.Forms.TextBox();
+            this.MatricM1_c = new System.Windows.Forms.TextBox();
+            this.MatricM1_b = new System.Windows.Forms.TextBox();
+            this.MatricM1_a = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.transTab.SuspendLayout();
             this.addTab.SuspendLayout();
@@ -160,182 +160,203 @@
             this.tabControl1.Controls.Add(this.subTab);
             this.tabControl1.Controls.Add(this.mulTab);
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(800, 315);
+            this.tabControl1.Size = new System.Drawing.Size(1067, 388);
             this.tabControl1.TabIndex = 0;
             // 
             // transTab
             // 
-            this.transTab.Controls.Add(this.label1);
-            this.transTab.Controls.Add(this.textBox18);
-            this.transTab.Controls.Add(this.textBox17);
-            this.transTab.Controls.Add(this.textBox16);
-            this.transTab.Controls.Add(this.textBox15);
-            this.transTab.Controls.Add(this.textBox14);
-            this.transTab.Controls.Add(this.textBox13);
-            this.transTab.Controls.Add(this.textBox12);
-            this.transTab.Controls.Add(this.textBox11);
-            this.transTab.Controls.Add(this.textBox10);
-            this.transTab.Controls.Add(this.textBox9);
-            this.transTab.Controls.Add(this.textBox8);
-            this.transTab.Controls.Add(this.textBox7);
-            this.transTab.Controls.Add(this.textBox6);
-            this.transTab.Controls.Add(this.textBox5);
-            this.transTab.Controls.Add(this.textBox4);
-            this.transTab.Controls.Add(this.textBox3);
-            this.transTab.Controls.Add(this.textBox2);
-            this.transTab.Controls.Add(this.textBox1);
+            this.transTab.Controls.Add(this.TransLabel);
+            this.transTab.Controls.Add(this.MatricT_cT);
+            this.transTab.Controls.Add(this.MatricT_bT);
+            this.transTab.Controls.Add(this.MatricT_eT);
+            this.transTab.Controls.Add(this.MatricT_fT);
+            this.transTab.Controls.Add(this.MatricT_iT);
+            this.transTab.Controls.Add(this.MatricT_hT);
+            this.transTab.Controls.Add(this.MatricT_gT);
+            this.transTab.Controls.Add(this.MatricT_dT);
+            this.transTab.Controls.Add(this.MatricT_aT);
+            this.transTab.Controls.Add(this.MatricT_g);
+            this.transTab.Controls.Add(this.MatricT_h);
+            this.transTab.Controls.Add(this.MatricT_i);
+            this.transTab.Controls.Add(this.MatricT_f);
+            this.transTab.Controls.Add(this.MatricT_e);
+            this.transTab.Controls.Add(this.MatricT_d);
+            this.transTab.Controls.Add(this.MatricT_c);
+            this.transTab.Controls.Add(this.MatricT_b);
+            this.transTab.Controls.Add(this.MatricT_a);
             this.transTab.Controls.Add(this.transBut);
-            this.transTab.Location = new System.Drawing.Point(4, 22);
+            this.transTab.Location = new System.Drawing.Point(4, 25);
+            this.transTab.Margin = new System.Windows.Forms.Padding(4);
             this.transTab.Name = "transTab";
-            this.transTab.Padding = new System.Windows.Forms.Padding(3);
-            this.transTab.Size = new System.Drawing.Size(792, 289);
+            this.transTab.Padding = new System.Windows.Forms.Padding(4);
+            this.transTab.Size = new System.Drawing.Size(1059, 359);
             this.transTab.TabIndex = 3;
             this.transTab.Text = "Transpose";
             this.transTab.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // TransLabel
             // 
-            this.label1.Location = new System.Drawing.Point(23, 118);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(184, 23);
-            this.label1.TabIndex = 19;
-            this.label1.Text = "Insert Numbers/Letters in the boxes above.";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TransLabel.Location = new System.Drawing.Point(31, 145);
+            this.TransLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.TransLabel.Name = "TransLabel";
+            this.TransLabel.Size = new System.Drawing.Size(245, 28);
+            this.TransLabel.TabIndex = 19;
+            this.TransLabel.Text = "Insert Numbers/Letters in the boxes above.";
+            this.TransLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox18
+            // MatricT_cT
             // 
-            this.textBox18.Location = new System.Drawing.Point(296, 85);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(46, 20);
-            this.textBox18.TabIndex = 18;
+            this.MatricT_cT.Location = new System.Drawing.Point(395, 105);
+            this.MatricT_cT.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_cT.Name = "MatricT_cT";
+            this.MatricT_cT.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_cT.TabIndex = 18;
             // 
-            // textBox17
+            // MatricT_bT
             // 
-            this.textBox17.Location = new System.Drawing.Point(296, 59);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(46, 20);
-            this.textBox17.TabIndex = 17;
+            this.MatricT_bT.Location = new System.Drawing.Point(395, 73);
+            this.MatricT_bT.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_bT.Name = "MatricT_bT";
+            this.MatricT_bT.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_bT.TabIndex = 17;
             // 
-            // textBox16
+            // MatricT_eT
             // 
-            this.textBox16.Location = new System.Drawing.Point(348, 59);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(46, 20);
-            this.textBox16.TabIndex = 16;
+            this.MatricT_eT.Location = new System.Drawing.Point(464, 73);
+            this.MatricT_eT.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_eT.Name = "MatricT_eT";
+            this.MatricT_eT.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_eT.TabIndex = 16;
             // 
-            // textBox15
+            // MatricT_fT
             // 
-            this.textBox15.Location = new System.Drawing.Point(348, 85);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(46, 20);
-            this.textBox15.TabIndex = 15;
+            this.MatricT_fT.Location = new System.Drawing.Point(464, 105);
+            this.MatricT_fT.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_fT.Name = "MatricT_fT";
+            this.MatricT_fT.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_fT.TabIndex = 15;
             // 
-            // textBox14
+            // MatricT_iT
             // 
-            this.textBox14.Location = new System.Drawing.Point(400, 85);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(46, 20);
-            this.textBox14.TabIndex = 14;
+            this.MatricT_iT.Location = new System.Drawing.Point(533, 105);
+            this.MatricT_iT.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_iT.Name = "MatricT_iT";
+            this.MatricT_iT.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_iT.TabIndex = 14;
             // 
-            // textBox13
+            // MatricT_hT
             // 
-            this.textBox13.Location = new System.Drawing.Point(400, 59);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(46, 20);
-            this.textBox13.TabIndex = 13;
+            this.MatricT_hT.Location = new System.Drawing.Point(533, 73);
+            this.MatricT_hT.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_hT.Name = "MatricT_hT";
+            this.MatricT_hT.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_hT.TabIndex = 13;
             // 
-            // textBox12
+            // MatricT_gT
             // 
-            this.textBox12.Location = new System.Drawing.Point(400, 33);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(46, 20);
-            this.textBox12.TabIndex = 12;
+            this.MatricT_gT.Location = new System.Drawing.Point(533, 41);
+            this.MatricT_gT.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_gT.Name = "MatricT_gT";
+            this.MatricT_gT.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_gT.TabIndex = 12;
             // 
-            // textBox11
+            // MatricT_dT
             // 
-            this.textBox11.Location = new System.Drawing.Point(348, 33);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(46, 20);
-            this.textBox11.TabIndex = 11;
+            this.MatricT_dT.Location = new System.Drawing.Point(464, 41);
+            this.MatricT_dT.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_dT.Name = "MatricT_dT";
+            this.MatricT_dT.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_dT.TabIndex = 11;
             // 
-            // textBox10
+            // MatricT_aT
             // 
-            this.textBox10.Location = new System.Drawing.Point(296, 33);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(46, 20);
-            this.textBox10.TabIndex = 10;
+            this.MatricT_aT.Location = new System.Drawing.Point(395, 41);
+            this.MatricT_aT.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_aT.Name = "MatricT_aT";
+            this.MatricT_aT.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_aT.TabIndex = 10;
             // 
-            // textBox9
+            // MatricT_g
             // 
-            this.textBox9.Location = new System.Drawing.Point(39, 85);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(46, 20);
-            this.textBox9.TabIndex = 8;
+            this.MatricT_g.Location = new System.Drawing.Point(52, 105);
+            this.MatricT_g.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_g.Name = "MatricT_g";
+            this.MatricT_g.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_g.TabIndex = 8;
             // 
-            // textBox8
+            // MatricT_h
             // 
-            this.textBox8.Location = new System.Drawing.Point(91, 85);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(46, 20);
-            this.textBox8.TabIndex = 7;
+            this.MatricT_h.Location = new System.Drawing.Point(121, 105);
+            this.MatricT_h.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_h.Name = "MatricT_h";
+            this.MatricT_h.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_h.TabIndex = 7;
             // 
-            // textBox7
+            // MatricT_i
             // 
-            this.textBox7.Location = new System.Drawing.Point(143, 85);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(46, 20);
-            this.textBox7.TabIndex = 6;
+            this.MatricT_i.Location = new System.Drawing.Point(191, 105);
+            this.MatricT_i.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_i.Name = "MatricT_i";
+            this.MatricT_i.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_i.TabIndex = 6;
             // 
-            // textBox6
+            // MatricT_f
             // 
-            this.textBox6.Location = new System.Drawing.Point(143, 59);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(46, 20);
-            this.textBox6.TabIndex = 5;
+            this.MatricT_f.Location = new System.Drawing.Point(191, 73);
+            this.MatricT_f.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_f.Name = "MatricT_f";
+            this.MatricT_f.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_f.TabIndex = 5;
             // 
-            // textBox5
+            // MatricT_e
             // 
-            this.textBox5.Location = new System.Drawing.Point(91, 59);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(46, 20);
-            this.textBox5.TabIndex = 4;
+            this.MatricT_e.Location = new System.Drawing.Point(121, 73);
+            this.MatricT_e.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_e.Name = "MatricT_e";
+            this.MatricT_e.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_e.TabIndex = 4;
             // 
-            // textBox4
+            // MatricT_d
             // 
-            this.textBox4.Location = new System.Drawing.Point(39, 59);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(46, 20);
-            this.textBox4.TabIndex = 3;
+            this.MatricT_d.Location = new System.Drawing.Point(52, 73);
+            this.MatricT_d.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_d.Name = "MatricT_d";
+            this.MatricT_d.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_d.TabIndex = 3;
             // 
-            // textBox3
+            // MatricT_c
             // 
-            this.textBox3.Location = new System.Drawing.Point(143, 33);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(46, 20);
-            this.textBox3.TabIndex = 2;
+            this.MatricT_c.Location = new System.Drawing.Point(191, 41);
+            this.MatricT_c.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_c.Name = "MatricT_c";
+            this.MatricT_c.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_c.TabIndex = 2;
             // 
-            // textBox2
+            // MatricT_b
             // 
-            this.textBox2.Location = new System.Drawing.Point(91, 33);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(46, 20);
-            this.textBox2.TabIndex = 1;
+            this.MatricT_b.Location = new System.Drawing.Point(121, 41);
+            this.MatricT_b.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_b.Name = "MatricT_b";
+            this.MatricT_b.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_b.TabIndex = 1;
             // 
-            // textBox1
+            // MatricT_a
             // 
-            this.textBox1.Location = new System.Drawing.Point(39, 33);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(46, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.MatricT_a.Location = new System.Drawing.Point(52, 41);
+            this.MatricT_a.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricT_a.Name = "MatricT_a";
+            this.MatricT_a.Size = new System.Drawing.Size(60, 22);
+            this.MatricT_a.TabIndex = 0;
             // 
             // transBut
             // 
-            this.transBut.Location = new System.Drawing.Point(205, 56);
+            this.transBut.Location = new System.Drawing.Point(273, 69);
+            this.transBut.Margin = new System.Windows.Forms.Padding(4);
             this.transBut.Name = "transBut";
-            this.transBut.Size = new System.Drawing.Size(75, 23);
+            this.transBut.Size = new System.Drawing.Size(100, 28);
             this.transBut.TabIndex = 9;
             this.transBut.Text = "Transpose";
             this.transBut.UseVisualStyleBackColor = true;
@@ -343,811 +364,908 @@
             // 
             // addTab
             // 
-            this.addTab.Controls.Add(this.label2);
+            this.addTab.Controls.Add(this.AddLabel);
             this.addTab.Controls.Add(this.AddButton);
-            this.addTab.Controls.Add(this.textBox47);
-            this.addTab.Controls.Add(this.textBox46);
-            this.addTab.Controls.Add(this.textBox45);
-            this.addTab.Controls.Add(this.textBox44);
-            this.addTab.Controls.Add(this.textBox43);
-            this.addTab.Controls.Add(this.textBox42);
-            this.addTab.Controls.Add(this.textBox41);
-            this.addTab.Controls.Add(this.textBox40);
-            this.addTab.Controls.Add(this.textBox39);
+            this.addTab.Controls.Add(this.MatricAR_i);
+            this.addTab.Controls.Add(this.MatricAR_h);
+            this.addTab.Controls.Add(this.MatricAR_g);
+            this.addTab.Controls.Add(this.MatricAR_f);
+            this.addTab.Controls.Add(this.MatricAR_e);
+            this.addTab.Controls.Add(this.MatricAR_d);
+            this.addTab.Controls.Add(this.MatricAR_c);
+            this.addTab.Controls.Add(this.MatricAR_b);
+            this.addTab.Controls.Add(this.MatricAR_a);
             this.addTab.Controls.Add(this.textBox38);
-            this.addTab.Controls.Add(this.textBox37);
-            this.addTab.Controls.Add(this.textBox36);
-            this.addTab.Controls.Add(this.textBox35);
-            this.addTab.Controls.Add(this.textBox34);
-            this.addTab.Controls.Add(this.textBox33);
-            this.addTab.Controls.Add(this.textBox32);
-            this.addTab.Controls.Add(this.textBox31);
-            this.addTab.Controls.Add(this.textBox30);
-            this.addTab.Controls.Add(this.textBox29);
+            this.addTab.Controls.Add(this.MatricA2_i);
+            this.addTab.Controls.Add(this.MatricA2_h);
+            this.addTab.Controls.Add(this.MatricA2_g);
+            this.addTab.Controls.Add(this.MatricA2_f);
+            this.addTab.Controls.Add(this.MatricA2_e);
+            this.addTab.Controls.Add(this.MatricA2_d);
+            this.addTab.Controls.Add(this.MatricA2_c);
+            this.addTab.Controls.Add(this.MatricA2_b);
+            this.addTab.Controls.Add(this.MatricA2_a);
             this.addTab.Controls.Add(this.textBox28);
-            this.addTab.Controls.Add(this.textBox27);
-            this.addTab.Controls.Add(this.textBox26);
-            this.addTab.Controls.Add(this.textBox25);
-            this.addTab.Controls.Add(this.textBox24);
-            this.addTab.Controls.Add(this.textBox23);
-            this.addTab.Controls.Add(this.textBox22);
-            this.addTab.Controls.Add(this.textBox21);
-            this.addTab.Controls.Add(this.textBox20);
-            this.addTab.Controls.Add(this.textBox19);
-            this.addTab.Location = new System.Drawing.Point(4, 22);
+            this.addTab.Controls.Add(this.MatricA1_i);
+            this.addTab.Controls.Add(this.MatricA1_h);
+            this.addTab.Controls.Add(this.MatricA1_g);
+            this.addTab.Controls.Add(this.MatricA1_f);
+            this.addTab.Controls.Add(this.MatricA1_e);
+            this.addTab.Controls.Add(this.MatricA1_d);
+            this.addTab.Controls.Add(this.MatricA1_c);
+            this.addTab.Controls.Add(this.MatricA1_b);
+            this.addTab.Controls.Add(this.MatricA1_a);
+            this.addTab.Location = new System.Drawing.Point(4, 25);
+            this.addTab.Margin = new System.Windows.Forms.Padding(4);
             this.addTab.Name = "addTab";
-            this.addTab.Padding = new System.Windows.Forms.Padding(3);
-            this.addTab.Size = new System.Drawing.Size(792, 289);
+            this.addTab.Padding = new System.Windows.Forms.Padding(4);
+            this.addTab.Size = new System.Drawing.Size(1059, 359);
             this.addTab.TabIndex = 4;
             this.addTab.Text = "Addition";
             this.addTab.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // AddLabel
             // 
-            this.label2.Location = new System.Drawing.Point(101, 180);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(210, 38);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Fill all the left and middle matrix before pressing the addition button. ";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.AddLabel.Location = new System.Drawing.Point(135, 222);
+            this.AddLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.AddLabel.Name = "AddLabel";
+            this.AddLabel.Size = new System.Drawing.Size(280, 47);
+            this.AddLabel.TabIndex = 1;
+            this.AddLabel.Text = "Fill all the left and middle matrix before pressing the addition button. ";
+            this.AddLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // AddButton
             // 
-            this.AddButton.Location = new System.Drawing.Point(343, 180);
+            this.AddButton.Location = new System.Drawing.Point(457, 222);
+            this.AddButton.Margin = new System.Windows.Forms.Padding(4);
             this.AddButton.Name = "AddButton";
-            this.AddButton.Size = new System.Drawing.Size(75, 23);
+            this.AddButton.Size = new System.Drawing.Size(100, 28);
             this.AddButton.TabIndex = 30;
             this.AddButton.Text = "Add";
             this.AddButton.UseVisualStyleBackColor = true;
             this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
-            // textBox47
+            // MatricAR_i
             // 
-            this.textBox47.Location = new System.Drawing.Point(594, 141);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.Size = new System.Drawing.Size(46, 20);
-            this.textBox47.TabIndex = 29;
+            this.MatricAR_i.Location = new System.Drawing.Point(792, 174);
+            this.MatricAR_i.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricAR_i.Name = "MatricAR_i";
+            this.MatricAR_i.Size = new System.Drawing.Size(60, 22);
+            this.MatricAR_i.TabIndex = 29;
             // 
-            // textBox46
+            // MatricAR_h
             // 
-            this.textBox46.Location = new System.Drawing.Point(542, 141);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.Size = new System.Drawing.Size(46, 20);
-            this.textBox46.TabIndex = 28;
+            this.MatricAR_h.Location = new System.Drawing.Point(723, 174);
+            this.MatricAR_h.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricAR_h.Name = "MatricAR_h";
+            this.MatricAR_h.Size = new System.Drawing.Size(60, 22);
+            this.MatricAR_h.TabIndex = 28;
             // 
-            // textBox45
+            // MatricAR_g
             // 
-            this.textBox45.Location = new System.Drawing.Point(490, 141);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(46, 20);
-            this.textBox45.TabIndex = 27;
+            this.MatricAR_g.Location = new System.Drawing.Point(653, 174);
+            this.MatricAR_g.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricAR_g.Name = "MatricAR_g";
+            this.MatricAR_g.Size = new System.Drawing.Size(60, 22);
+            this.MatricAR_g.TabIndex = 27;
             // 
-            // textBox44
+            // MatricAR_f
             // 
-            this.textBox44.Location = new System.Drawing.Point(594, 115);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(46, 20);
-            this.textBox44.TabIndex = 26;
+            this.MatricAR_f.Location = new System.Drawing.Point(792, 142);
+            this.MatricAR_f.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricAR_f.Name = "MatricAR_f";
+            this.MatricAR_f.Size = new System.Drawing.Size(60, 22);
+            this.MatricAR_f.TabIndex = 26;
             // 
-            // textBox43
+            // MatricAR_e
             // 
-            this.textBox43.Location = new System.Drawing.Point(542, 115);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(46, 20);
-            this.textBox43.TabIndex = 25;
+            this.MatricAR_e.Location = new System.Drawing.Point(723, 142);
+            this.MatricAR_e.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricAR_e.Name = "MatricAR_e";
+            this.MatricAR_e.Size = new System.Drawing.Size(60, 22);
+            this.MatricAR_e.TabIndex = 25;
             // 
-            // textBox42
+            // MatricAR_d
             // 
-            this.textBox42.Location = new System.Drawing.Point(490, 115);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(46, 20);
-            this.textBox42.TabIndex = 24;
+            this.MatricAR_d.Location = new System.Drawing.Point(653, 142);
+            this.MatricAR_d.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricAR_d.Name = "MatricAR_d";
+            this.MatricAR_d.Size = new System.Drawing.Size(60, 22);
+            this.MatricAR_d.TabIndex = 24;
             // 
-            // textBox41
+            // MatricAR_c
             // 
-            this.textBox41.Location = new System.Drawing.Point(594, 89);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(46, 20);
-            this.textBox41.TabIndex = 23;
+            this.MatricAR_c.Location = new System.Drawing.Point(792, 110);
+            this.MatricAR_c.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricAR_c.Name = "MatricAR_c";
+            this.MatricAR_c.Size = new System.Drawing.Size(60, 22);
+            this.MatricAR_c.TabIndex = 23;
             // 
-            // textBox40
+            // MatricAR_b
             // 
-            this.textBox40.Location = new System.Drawing.Point(542, 89);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(46, 20);
-            this.textBox40.TabIndex = 22;
+            this.MatricAR_b.Location = new System.Drawing.Point(723, 110);
+            this.MatricAR_b.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricAR_b.Name = "MatricAR_b";
+            this.MatricAR_b.Size = new System.Drawing.Size(60, 22);
+            this.MatricAR_b.TabIndex = 22;
             // 
-            // textBox39
+            // MatricAR_a
             // 
-            this.textBox39.Location = new System.Drawing.Point(490, 89);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(46, 20);
-            this.textBox39.TabIndex = 21;
+            this.MatricAR_a.Location = new System.Drawing.Point(653, 110);
+            this.MatricAR_a.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricAR_a.Name = "MatricAR_a";
+            this.MatricAR_a.Size = new System.Drawing.Size(60, 22);
+            this.MatricAR_a.TabIndex = 21;
             // 
             // textBox38
             // 
-            this.textBox38.Location = new System.Drawing.Point(463, 115);
+            this.textBox38.Location = new System.Drawing.Point(617, 142);
+            this.textBox38.Margin = new System.Windows.Forms.Padding(4);
             this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(14, 20);
+            this.textBox38.Size = new System.Drawing.Size(17, 22);
             this.textBox38.TabIndex = 20;
             this.textBox38.Text = "=";
             this.textBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox37
+            // MatricA2_i
             // 
-            this.textBox37.Location = new System.Drawing.Point(411, 141);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(46, 20);
-            this.textBox37.TabIndex = 19;
+            this.MatricA2_i.Location = new System.Drawing.Point(548, 174);
+            this.MatricA2_i.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA2_i.Name = "MatricA2_i";
+            this.MatricA2_i.Size = new System.Drawing.Size(60, 22);
+            this.MatricA2_i.TabIndex = 19;
             // 
-            // textBox36
+            // MatricA2_h
             // 
-            this.textBox36.Location = new System.Drawing.Point(359, 141);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(46, 20);
-            this.textBox36.TabIndex = 18;
+            this.MatricA2_h.Location = new System.Drawing.Point(479, 174);
+            this.MatricA2_h.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA2_h.Name = "MatricA2_h";
+            this.MatricA2_h.Size = new System.Drawing.Size(60, 22);
+            this.MatricA2_h.TabIndex = 18;
             // 
-            // textBox35
+            // MatricA2_g
             // 
-            this.textBox35.Location = new System.Drawing.Point(307, 141);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(46, 20);
-            this.textBox35.TabIndex = 17;
+            this.MatricA2_g.Location = new System.Drawing.Point(409, 174);
+            this.MatricA2_g.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA2_g.Name = "MatricA2_g";
+            this.MatricA2_g.Size = new System.Drawing.Size(60, 22);
+            this.MatricA2_g.TabIndex = 17;
             // 
-            // textBox34
+            // MatricA2_f
             // 
-            this.textBox34.Location = new System.Drawing.Point(411, 115);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(46, 20);
-            this.textBox34.TabIndex = 16;
+            this.MatricA2_f.Location = new System.Drawing.Point(548, 142);
+            this.MatricA2_f.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA2_f.Name = "MatricA2_f";
+            this.MatricA2_f.Size = new System.Drawing.Size(60, 22);
+            this.MatricA2_f.TabIndex = 16;
             // 
-            // textBox33
+            // MatricA2_e
             // 
-            this.textBox33.Location = new System.Drawing.Point(359, 115);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(46, 20);
-            this.textBox33.TabIndex = 15;
+            this.MatricA2_e.Location = new System.Drawing.Point(479, 142);
+            this.MatricA2_e.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA2_e.Name = "MatricA2_e";
+            this.MatricA2_e.Size = new System.Drawing.Size(60, 22);
+            this.MatricA2_e.TabIndex = 15;
             // 
-            // textBox32
+            // MatricA2_d
             // 
-            this.textBox32.Location = new System.Drawing.Point(307, 115);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(46, 20);
-            this.textBox32.TabIndex = 14;
+            this.MatricA2_d.Location = new System.Drawing.Point(409, 142);
+            this.MatricA2_d.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA2_d.Name = "MatricA2_d";
+            this.MatricA2_d.Size = new System.Drawing.Size(60, 22);
+            this.MatricA2_d.TabIndex = 14;
             // 
-            // textBox31
+            // MatricA2_c
             // 
-            this.textBox31.Location = new System.Drawing.Point(411, 89);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(46, 20);
-            this.textBox31.TabIndex = 13;
+            this.MatricA2_c.Location = new System.Drawing.Point(548, 110);
+            this.MatricA2_c.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA2_c.Name = "MatricA2_c";
+            this.MatricA2_c.Size = new System.Drawing.Size(60, 22);
+            this.MatricA2_c.TabIndex = 13;
             // 
-            // textBox30
+            // MatricA2_b
             // 
-            this.textBox30.Location = new System.Drawing.Point(359, 89);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(46, 20);
-            this.textBox30.TabIndex = 12;
+            this.MatricA2_b.Location = new System.Drawing.Point(479, 110);
+            this.MatricA2_b.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA2_b.Name = "MatricA2_b";
+            this.MatricA2_b.Size = new System.Drawing.Size(60, 22);
+            this.MatricA2_b.TabIndex = 12;
             // 
-            // textBox29
+            // MatricA2_a
             // 
-            this.textBox29.Location = new System.Drawing.Point(307, 89);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(46, 20);
-            this.textBox29.TabIndex = 11;
+            this.MatricA2_a.Location = new System.Drawing.Point(409, 110);
+            this.MatricA2_a.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA2_a.Name = "MatricA2_a";
+            this.MatricA2_a.Size = new System.Drawing.Size(60, 22);
+            this.MatricA2_a.TabIndex = 11;
             // 
             // textBox28
             // 
-            this.textBox28.Location = new System.Drawing.Point(284, 115);
+            this.textBox28.Location = new System.Drawing.Point(379, 142);
+            this.textBox28.Margin = new System.Windows.Forms.Padding(4);
             this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(14, 20);
+            this.textBox28.Size = new System.Drawing.Size(17, 22);
             this.textBox28.TabIndex = 10;
             this.textBox28.Text = "+";
             this.textBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox27
+            // MatricA1_i
             // 
-            this.textBox27.Location = new System.Drawing.Point(232, 141);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(46, 20);
-            this.textBox27.TabIndex = 9;
+            this.MatricA1_i.Location = new System.Drawing.Point(309, 174);
+            this.MatricA1_i.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA1_i.Name = "MatricA1_i";
+            this.MatricA1_i.Size = new System.Drawing.Size(60, 22);
+            this.MatricA1_i.TabIndex = 9;
             // 
-            // textBox26
+            // MatricA1_h
             // 
-            this.textBox26.Location = new System.Drawing.Point(180, 141);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(46, 20);
-            this.textBox26.TabIndex = 8;
+            this.MatricA1_h.Location = new System.Drawing.Point(240, 174);
+            this.MatricA1_h.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA1_h.Name = "MatricA1_h";
+            this.MatricA1_h.Size = new System.Drawing.Size(60, 22);
+            this.MatricA1_h.TabIndex = 8;
             // 
-            // textBox25
+            // MatricA1_g
             // 
-            this.textBox25.Location = new System.Drawing.Point(128, 141);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(46, 20);
-            this.textBox25.TabIndex = 7;
+            this.MatricA1_g.Location = new System.Drawing.Point(171, 174);
+            this.MatricA1_g.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA1_g.Name = "MatricA1_g";
+            this.MatricA1_g.Size = new System.Drawing.Size(60, 22);
+            this.MatricA1_g.TabIndex = 7;
             // 
-            // textBox24
+            // MatricA1_f
             // 
-            this.textBox24.Location = new System.Drawing.Point(232, 115);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(46, 20);
-            this.textBox24.TabIndex = 6;
+            this.MatricA1_f.Location = new System.Drawing.Point(309, 142);
+            this.MatricA1_f.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA1_f.Name = "MatricA1_f";
+            this.MatricA1_f.Size = new System.Drawing.Size(60, 22);
+            this.MatricA1_f.TabIndex = 6;
             // 
-            // textBox23
+            // MatricA1_e
             // 
-            this.textBox23.Location = new System.Drawing.Point(180, 115);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(46, 20);
-            this.textBox23.TabIndex = 5;
+            this.MatricA1_e.Location = new System.Drawing.Point(240, 142);
+            this.MatricA1_e.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA1_e.Name = "MatricA1_e";
+            this.MatricA1_e.Size = new System.Drawing.Size(60, 22);
+            this.MatricA1_e.TabIndex = 5;
             // 
-            // textBox22
+            // MatricA1_d
             // 
-            this.textBox22.Location = new System.Drawing.Point(128, 115);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(46, 20);
-            this.textBox22.TabIndex = 4;
+            this.MatricA1_d.Location = new System.Drawing.Point(171, 142);
+            this.MatricA1_d.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA1_d.Name = "MatricA1_d";
+            this.MatricA1_d.Size = new System.Drawing.Size(60, 22);
+            this.MatricA1_d.TabIndex = 4;
             // 
-            // textBox21
+            // MatricA1_c
             // 
-            this.textBox21.Location = new System.Drawing.Point(232, 89);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(46, 20);
-            this.textBox21.TabIndex = 3;
+            this.MatricA1_c.Location = new System.Drawing.Point(309, 110);
+            this.MatricA1_c.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA1_c.Name = "MatricA1_c";
+            this.MatricA1_c.Size = new System.Drawing.Size(60, 22);
+            this.MatricA1_c.TabIndex = 3;
             // 
-            // textBox20
+            // MatricA1_b
             // 
-            this.textBox20.Location = new System.Drawing.Point(180, 89);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(46, 20);
-            this.textBox20.TabIndex = 2;
+            this.MatricA1_b.Location = new System.Drawing.Point(240, 110);
+            this.MatricA1_b.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA1_b.Name = "MatricA1_b";
+            this.MatricA1_b.Size = new System.Drawing.Size(60, 22);
+            this.MatricA1_b.TabIndex = 2;
             // 
-            // textBox19
+            // MatricA1_a
             // 
-            this.textBox19.Location = new System.Drawing.Point(128, 89);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(46, 20);
-            this.textBox19.TabIndex = 1;
+            this.MatricA1_a.Location = new System.Drawing.Point(171, 110);
+            this.MatricA1_a.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricA1_a.Name = "MatricA1_a";
+            this.MatricA1_a.Size = new System.Drawing.Size(60, 22);
+            this.MatricA1_a.TabIndex = 1;
             // 
             // subTab
             // 
-            this.subTab.Controls.Add(this.label3);
+            this.subTab.Controls.Add(this.SubLabel);
             this.subTab.Controls.Add(this.SubButton);
-            this.subTab.Controls.Add(this.textBox48);
-            this.subTab.Controls.Add(this.textBox49);
-            this.subTab.Controls.Add(this.textBox50);
-            this.subTab.Controls.Add(this.textBox51);
-            this.subTab.Controls.Add(this.textBox52);
-            this.subTab.Controls.Add(this.textBox53);
-            this.subTab.Controls.Add(this.textBox54);
-            this.subTab.Controls.Add(this.textBox55);
-            this.subTab.Controls.Add(this.textBox56);
+            this.subTab.Controls.Add(this.MatricRS_i);
+            this.subTab.Controls.Add(this.MatricRS_h);
+            this.subTab.Controls.Add(this.MatricRS_g);
+            this.subTab.Controls.Add(this.MatricRS_f);
+            this.subTab.Controls.Add(this.MatricRS_e);
+            this.subTab.Controls.Add(this.MatricRS_d);
+            this.subTab.Controls.Add(this.MatricRS_c);
+            this.subTab.Controls.Add(this.MatricRS_b);
+            this.subTab.Controls.Add(this.MatricRS_a);
             this.subTab.Controls.Add(this.textBox57);
-            this.subTab.Controls.Add(this.textBox58);
-            this.subTab.Controls.Add(this.textBox59);
-            this.subTab.Controls.Add(this.textBox60);
-            this.subTab.Controls.Add(this.textBox61);
-            this.subTab.Controls.Add(this.textBox62);
-            this.subTab.Controls.Add(this.textBox63);
-            this.subTab.Controls.Add(this.textBox64);
-            this.subTab.Controls.Add(this.textBox65);
-            this.subTab.Controls.Add(this.textBox66);
+            this.subTab.Controls.Add(this.MatricS2_i);
+            this.subTab.Controls.Add(this.MatricS2_h);
+            this.subTab.Controls.Add(this.MatricS2_g);
+            this.subTab.Controls.Add(this.MatricS2_f);
+            this.subTab.Controls.Add(this.MatricS2_e);
+            this.subTab.Controls.Add(this.MatricS2_d);
+            this.subTab.Controls.Add(this.MatricS2_c);
+            this.subTab.Controls.Add(this.MatricS2_b);
+            this.subTab.Controls.Add(this.MatricS2_a);
             this.subTab.Controls.Add(this.textBox67);
-            this.subTab.Controls.Add(this.textBox68);
-            this.subTab.Controls.Add(this.textBox69);
-            this.subTab.Controls.Add(this.textBox70);
-            this.subTab.Controls.Add(this.textBox71);
-            this.subTab.Controls.Add(this.textBox72);
-            this.subTab.Controls.Add(this.textBox73);
-            this.subTab.Controls.Add(this.textBox74);
-            this.subTab.Controls.Add(this.textBox75);
-            this.subTab.Controls.Add(this.textBox76);
-            this.subTab.Location = new System.Drawing.Point(4, 22);
+            this.subTab.Controls.Add(this.MatricS1_i);
+            this.subTab.Controls.Add(this.MatricS1_h);
+            this.subTab.Controls.Add(this.MatricS1_g);
+            this.subTab.Controls.Add(this.MatricS1_f);
+            this.subTab.Controls.Add(this.MatricS1_e);
+            this.subTab.Controls.Add(this.MatricS1_d);
+            this.subTab.Controls.Add(this.MatricS1_c);
+            this.subTab.Controls.Add(this.MatricS1_b);
+            this.subTab.Controls.Add(this.MatricS1_a);
+            this.subTab.Location = new System.Drawing.Point(4, 25);
+            this.subTab.Margin = new System.Windows.Forms.Padding(4);
             this.subTab.Name = "subTab";
-            this.subTab.Padding = new System.Windows.Forms.Padding(3);
-            this.subTab.Size = new System.Drawing.Size(792, 289);
+            this.subTab.Padding = new System.Windows.Forms.Padding(4);
+            this.subTab.Size = new System.Drawing.Size(1059, 359);
             this.subTab.TabIndex = 5;
             this.subTab.Text = "Subtraction";
             this.subTab.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // SubLabel
             // 
-            this.label3.Location = new System.Drawing.Point(91, 182);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(210, 38);
-            this.label3.TabIndex = 31;
-            this.label3.Text = "Fill all the left and middle matrix before pressing the subtract button. ";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.SubLabel.Location = new System.Drawing.Point(121, 224);
+            this.SubLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.SubLabel.Name = "SubLabel";
+            this.SubLabel.Size = new System.Drawing.Size(280, 47);
+            this.SubLabel.TabIndex = 31;
+            this.SubLabel.Text = "Fill all the left and middle matrix before pressing the subtract button. ";
+            this.SubLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // SubButton
             // 
-            this.SubButton.Location = new System.Drawing.Point(333, 182);
+            this.SubButton.Location = new System.Drawing.Point(444, 224);
+            this.SubButton.Margin = new System.Windows.Forms.Padding(4);
             this.SubButton.Name = "SubButton";
-            this.SubButton.Size = new System.Drawing.Size(75, 23);
+            this.SubButton.Size = new System.Drawing.Size(100, 28);
             this.SubButton.TabIndex = 61;
             this.SubButton.Text = "Subtract";
             this.SubButton.UseVisualStyleBackColor = true;
             this.SubButton.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox48
+            // MatricRS_i
             // 
-            this.textBox48.Location = new System.Drawing.Point(584, 143);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.Size = new System.Drawing.Size(46, 20);
-            this.textBox48.TabIndex = 60;
+            this.MatricRS_i.Location = new System.Drawing.Point(779, 176);
+            this.MatricRS_i.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRS_i.Name = "MatricRS_i";
+            this.MatricRS_i.Size = new System.Drawing.Size(60, 22);
+            this.MatricRS_i.TabIndex = 60;
             // 
-            // textBox49
+            // MatricRS_h
             // 
-            this.textBox49.Location = new System.Drawing.Point(532, 143);
-            this.textBox49.Name = "textBox49";
-            this.textBox49.Size = new System.Drawing.Size(46, 20);
-            this.textBox49.TabIndex = 59;
+            this.MatricRS_h.Location = new System.Drawing.Point(709, 176);
+            this.MatricRS_h.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRS_h.Name = "MatricRS_h";
+            this.MatricRS_h.Size = new System.Drawing.Size(60, 22);
+            this.MatricRS_h.TabIndex = 59;
             // 
-            // textBox50
+            // MatricRS_g
             // 
-            this.textBox50.Location = new System.Drawing.Point(480, 143);
-            this.textBox50.Name = "textBox50";
-            this.textBox50.Size = new System.Drawing.Size(46, 20);
-            this.textBox50.TabIndex = 58;
+            this.MatricRS_g.Location = new System.Drawing.Point(640, 176);
+            this.MatricRS_g.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRS_g.Name = "MatricRS_g";
+            this.MatricRS_g.Size = new System.Drawing.Size(60, 22);
+            this.MatricRS_g.TabIndex = 58;
             // 
-            // textBox51
+            // MatricRS_f
             // 
-            this.textBox51.Location = new System.Drawing.Point(584, 117);
-            this.textBox51.Name = "textBox51";
-            this.textBox51.Size = new System.Drawing.Size(46, 20);
-            this.textBox51.TabIndex = 57;
+            this.MatricRS_f.Location = new System.Drawing.Point(779, 144);
+            this.MatricRS_f.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRS_f.Name = "MatricRS_f";
+            this.MatricRS_f.Size = new System.Drawing.Size(60, 22);
+            this.MatricRS_f.TabIndex = 57;
             // 
-            // textBox52
+            // MatricRS_e
             // 
-            this.textBox52.Location = new System.Drawing.Point(532, 117);
-            this.textBox52.Name = "textBox52";
-            this.textBox52.Size = new System.Drawing.Size(46, 20);
-            this.textBox52.TabIndex = 56;
+            this.MatricRS_e.Location = new System.Drawing.Point(709, 144);
+            this.MatricRS_e.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRS_e.Name = "MatricRS_e";
+            this.MatricRS_e.Size = new System.Drawing.Size(60, 22);
+            this.MatricRS_e.TabIndex = 56;
             // 
-            // textBox53
+            // MatricRS_d
             // 
-            this.textBox53.Location = new System.Drawing.Point(480, 117);
-            this.textBox53.Name = "textBox53";
-            this.textBox53.Size = new System.Drawing.Size(46, 20);
-            this.textBox53.TabIndex = 55;
+            this.MatricRS_d.Location = new System.Drawing.Point(640, 144);
+            this.MatricRS_d.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRS_d.Name = "MatricRS_d";
+            this.MatricRS_d.Size = new System.Drawing.Size(60, 22);
+            this.MatricRS_d.TabIndex = 55;
             // 
-            // textBox54
+            // MatricRS_c
             // 
-            this.textBox54.Location = new System.Drawing.Point(584, 91);
-            this.textBox54.Name = "textBox54";
-            this.textBox54.Size = new System.Drawing.Size(46, 20);
-            this.textBox54.TabIndex = 54;
+            this.MatricRS_c.Location = new System.Drawing.Point(779, 112);
+            this.MatricRS_c.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRS_c.Name = "MatricRS_c";
+            this.MatricRS_c.Size = new System.Drawing.Size(60, 22);
+            this.MatricRS_c.TabIndex = 54;
             // 
-            // textBox55
+            // MatricRS_b
             // 
-            this.textBox55.Location = new System.Drawing.Point(532, 91);
-            this.textBox55.Name = "textBox55";
-            this.textBox55.Size = new System.Drawing.Size(46, 20);
-            this.textBox55.TabIndex = 53;
+            this.MatricRS_b.Location = new System.Drawing.Point(709, 112);
+            this.MatricRS_b.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRS_b.Name = "MatricRS_b";
+            this.MatricRS_b.Size = new System.Drawing.Size(60, 22);
+            this.MatricRS_b.TabIndex = 53;
             // 
-            // textBox56
+            // MatricRS_a
             // 
-            this.textBox56.Location = new System.Drawing.Point(480, 91);
-            this.textBox56.Name = "textBox56";
-            this.textBox56.Size = new System.Drawing.Size(46, 20);
-            this.textBox56.TabIndex = 52;
+            this.MatricRS_a.Location = new System.Drawing.Point(640, 112);
+            this.MatricRS_a.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRS_a.Name = "MatricRS_a";
+            this.MatricRS_a.Size = new System.Drawing.Size(60, 22);
+            this.MatricRS_a.TabIndex = 52;
             // 
             // textBox57
             // 
-            this.textBox57.Location = new System.Drawing.Point(453, 117);
+            this.textBox57.Location = new System.Drawing.Point(604, 144);
+            this.textBox57.Margin = new System.Windows.Forms.Padding(4);
             this.textBox57.Name = "textBox57";
-            this.textBox57.Size = new System.Drawing.Size(14, 20);
+            this.textBox57.Size = new System.Drawing.Size(17, 22);
             this.textBox57.TabIndex = 51;
             this.textBox57.Text = "=";
             this.textBox57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox58
+            // MatricS2_i
             // 
-            this.textBox58.Location = new System.Drawing.Point(401, 143);
-            this.textBox58.Name = "textBox58";
-            this.textBox58.Size = new System.Drawing.Size(46, 20);
-            this.textBox58.TabIndex = 50;
+            this.MatricS2_i.Location = new System.Drawing.Point(535, 176);
+            this.MatricS2_i.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS2_i.Name = "MatricS2_i";
+            this.MatricS2_i.Size = new System.Drawing.Size(60, 22);
+            this.MatricS2_i.TabIndex = 50;
             // 
-            // textBox59
+            // MatricS2_h
             // 
-            this.textBox59.Location = new System.Drawing.Point(349, 143);
-            this.textBox59.Name = "textBox59";
-            this.textBox59.Size = new System.Drawing.Size(46, 20);
-            this.textBox59.TabIndex = 49;
+            this.MatricS2_h.Location = new System.Drawing.Point(465, 176);
+            this.MatricS2_h.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS2_h.Name = "MatricS2_h";
+            this.MatricS2_h.Size = new System.Drawing.Size(60, 22);
+            this.MatricS2_h.TabIndex = 49;
             // 
-            // textBox60
+            // MatricS2_g
             // 
-            this.textBox60.Location = new System.Drawing.Point(297, 143);
-            this.textBox60.Name = "textBox60";
-            this.textBox60.Size = new System.Drawing.Size(46, 20);
-            this.textBox60.TabIndex = 48;
+            this.MatricS2_g.Location = new System.Drawing.Point(396, 176);
+            this.MatricS2_g.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS2_g.Name = "MatricS2_g";
+            this.MatricS2_g.Size = new System.Drawing.Size(60, 22);
+            this.MatricS2_g.TabIndex = 48;
             // 
-            // textBox61
+            // MatricS2_f
             // 
-            this.textBox61.Location = new System.Drawing.Point(401, 117);
-            this.textBox61.Name = "textBox61";
-            this.textBox61.Size = new System.Drawing.Size(46, 20);
-            this.textBox61.TabIndex = 47;
+            this.MatricS2_f.Location = new System.Drawing.Point(535, 144);
+            this.MatricS2_f.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS2_f.Name = "MatricS2_f";
+            this.MatricS2_f.Size = new System.Drawing.Size(60, 22);
+            this.MatricS2_f.TabIndex = 47;
             // 
-            // textBox62
+            // MatricS2_e
             // 
-            this.textBox62.Location = new System.Drawing.Point(349, 117);
-            this.textBox62.Name = "textBox62";
-            this.textBox62.Size = new System.Drawing.Size(46, 20);
-            this.textBox62.TabIndex = 46;
+            this.MatricS2_e.Location = new System.Drawing.Point(465, 144);
+            this.MatricS2_e.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS2_e.Name = "MatricS2_e";
+            this.MatricS2_e.Size = new System.Drawing.Size(60, 22);
+            this.MatricS2_e.TabIndex = 46;
             // 
-            // textBox63
+            // MatricS2_d
             // 
-            this.textBox63.Location = new System.Drawing.Point(297, 117);
-            this.textBox63.Name = "textBox63";
-            this.textBox63.Size = new System.Drawing.Size(46, 20);
-            this.textBox63.TabIndex = 45;
+            this.MatricS2_d.Location = new System.Drawing.Point(396, 144);
+            this.MatricS2_d.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS2_d.Name = "MatricS2_d";
+            this.MatricS2_d.Size = new System.Drawing.Size(60, 22);
+            this.MatricS2_d.TabIndex = 45;
             // 
-            // textBox64
+            // MatricS2_c
             // 
-            this.textBox64.Location = new System.Drawing.Point(401, 91);
-            this.textBox64.Name = "textBox64";
-            this.textBox64.Size = new System.Drawing.Size(46, 20);
-            this.textBox64.TabIndex = 44;
+            this.MatricS2_c.Location = new System.Drawing.Point(535, 112);
+            this.MatricS2_c.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS2_c.Name = "MatricS2_c";
+            this.MatricS2_c.Size = new System.Drawing.Size(60, 22);
+            this.MatricS2_c.TabIndex = 44;
             // 
-            // textBox65
+            // MatricS2_b
             // 
-            this.textBox65.Location = new System.Drawing.Point(349, 91);
-            this.textBox65.Name = "textBox65";
-            this.textBox65.Size = new System.Drawing.Size(46, 20);
-            this.textBox65.TabIndex = 43;
+            this.MatricS2_b.Location = new System.Drawing.Point(465, 112);
+            this.MatricS2_b.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS2_b.Name = "MatricS2_b";
+            this.MatricS2_b.Size = new System.Drawing.Size(60, 22);
+            this.MatricS2_b.TabIndex = 43;
             // 
-            // textBox66
+            // MatricS2_a
             // 
-            this.textBox66.Location = new System.Drawing.Point(297, 91);
-            this.textBox66.Name = "textBox66";
-            this.textBox66.Size = new System.Drawing.Size(46, 20);
-            this.textBox66.TabIndex = 42;
+            this.MatricS2_a.Location = new System.Drawing.Point(396, 112);
+            this.MatricS2_a.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS2_a.Name = "MatricS2_a";
+            this.MatricS2_a.Size = new System.Drawing.Size(60, 22);
+            this.MatricS2_a.TabIndex = 42;
             // 
             // textBox67
             // 
-            this.textBox67.Location = new System.Drawing.Point(274, 117);
+            this.textBox67.Location = new System.Drawing.Point(365, 144);
+            this.textBox67.Margin = new System.Windows.Forms.Padding(4);
             this.textBox67.Name = "textBox67";
-            this.textBox67.Size = new System.Drawing.Size(14, 20);
+            this.textBox67.Size = new System.Drawing.Size(17, 22);
             this.textBox67.TabIndex = 41;
             this.textBox67.Text = "-";
             this.textBox67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox68
+            // MatricS1_i
             // 
-            this.textBox68.Location = new System.Drawing.Point(222, 143);
-            this.textBox68.Name = "textBox68";
-            this.textBox68.Size = new System.Drawing.Size(46, 20);
-            this.textBox68.TabIndex = 40;
+            this.MatricS1_i.Location = new System.Drawing.Point(296, 176);
+            this.MatricS1_i.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS1_i.Name = "MatricS1_i";
+            this.MatricS1_i.Size = new System.Drawing.Size(60, 22);
+            this.MatricS1_i.TabIndex = 40;
             // 
-            // textBox69
+            // MatricS1_h
             // 
-            this.textBox69.Location = new System.Drawing.Point(170, 143);
-            this.textBox69.Name = "textBox69";
-            this.textBox69.Size = new System.Drawing.Size(46, 20);
-            this.textBox69.TabIndex = 39;
+            this.MatricS1_h.Location = new System.Drawing.Point(227, 176);
+            this.MatricS1_h.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS1_h.Name = "MatricS1_h";
+            this.MatricS1_h.Size = new System.Drawing.Size(60, 22);
+            this.MatricS1_h.TabIndex = 39;
             // 
-            // textBox70
+            // MatricS1_g
             // 
-            this.textBox70.Location = new System.Drawing.Point(118, 143);
-            this.textBox70.Name = "textBox70";
-            this.textBox70.Size = new System.Drawing.Size(46, 20);
-            this.textBox70.TabIndex = 38;
+            this.MatricS1_g.Location = new System.Drawing.Point(157, 176);
+            this.MatricS1_g.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS1_g.Name = "MatricS1_g";
+            this.MatricS1_g.Size = new System.Drawing.Size(60, 22);
+            this.MatricS1_g.TabIndex = 38;
             // 
-            // textBox71
+            // MatricS1_f
             // 
-            this.textBox71.Location = new System.Drawing.Point(222, 117);
-            this.textBox71.Name = "textBox71";
-            this.textBox71.Size = new System.Drawing.Size(46, 20);
-            this.textBox71.TabIndex = 37;
+            this.MatricS1_f.Location = new System.Drawing.Point(296, 144);
+            this.MatricS1_f.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS1_f.Name = "MatricS1_f";
+            this.MatricS1_f.Size = new System.Drawing.Size(60, 22);
+            this.MatricS1_f.TabIndex = 37;
             // 
-            // textBox72
+            // MatricS1_e
             // 
-            this.textBox72.Location = new System.Drawing.Point(170, 117);
-            this.textBox72.Name = "textBox72";
-            this.textBox72.Size = new System.Drawing.Size(46, 20);
-            this.textBox72.TabIndex = 36;
+            this.MatricS1_e.Location = new System.Drawing.Point(227, 144);
+            this.MatricS1_e.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS1_e.Name = "MatricS1_e";
+            this.MatricS1_e.Size = new System.Drawing.Size(60, 22);
+            this.MatricS1_e.TabIndex = 36;
             // 
-            // textBox73
+            // MatricS1_d
             // 
-            this.textBox73.Location = new System.Drawing.Point(118, 117);
-            this.textBox73.Name = "textBox73";
-            this.textBox73.Size = new System.Drawing.Size(46, 20);
-            this.textBox73.TabIndex = 35;
+            this.MatricS1_d.Location = new System.Drawing.Point(157, 144);
+            this.MatricS1_d.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS1_d.Name = "MatricS1_d";
+            this.MatricS1_d.Size = new System.Drawing.Size(60, 22);
+            this.MatricS1_d.TabIndex = 35;
             // 
-            // textBox74
+            // MatricS1_c
             // 
-            this.textBox74.Location = new System.Drawing.Point(222, 91);
-            this.textBox74.Name = "textBox74";
-            this.textBox74.Size = new System.Drawing.Size(46, 20);
-            this.textBox74.TabIndex = 34;
+            this.MatricS1_c.Location = new System.Drawing.Point(296, 112);
+            this.MatricS1_c.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS1_c.Name = "MatricS1_c";
+            this.MatricS1_c.Size = new System.Drawing.Size(60, 22);
+            this.MatricS1_c.TabIndex = 34;
             // 
-            // textBox75
+            // MatricS1_b
             // 
-            this.textBox75.Location = new System.Drawing.Point(170, 91);
-            this.textBox75.Name = "textBox75";
-            this.textBox75.Size = new System.Drawing.Size(46, 20);
-            this.textBox75.TabIndex = 33;
+            this.MatricS1_b.Location = new System.Drawing.Point(226, 112);
+            this.MatricS1_b.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS1_b.Name = "MatricS1_b";
+            this.MatricS1_b.Size = new System.Drawing.Size(60, 22);
+            this.MatricS1_b.TabIndex = 33;
             // 
-            // textBox76
+            // MatricS1_a
             // 
-            this.textBox76.Location = new System.Drawing.Point(118, 91);
-            this.textBox76.Name = "textBox76";
-            this.textBox76.Size = new System.Drawing.Size(46, 20);
-            this.textBox76.TabIndex = 32;
+            this.MatricS1_a.Location = new System.Drawing.Point(157, 112);
+            this.MatricS1_a.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricS1_a.Name = "MatricS1_a";
+            this.MatricS1_a.Size = new System.Drawing.Size(60, 22);
+            this.MatricS1_a.TabIndex = 32;
             // 
             // mulTab
             // 
-            this.mulTab.Controls.Add(this.label4);
+            this.mulTab.Controls.Add(this.MulLabel);
             this.mulTab.Controls.Add(this.MulButton);
-            this.mulTab.Controls.Add(this.textBox77);
-            this.mulTab.Controls.Add(this.textBox78);
-            this.mulTab.Controls.Add(this.textBox79);
-            this.mulTab.Controls.Add(this.textBox80);
-            this.mulTab.Controls.Add(this.textBox81);
-            this.mulTab.Controls.Add(this.textBox82);
-            this.mulTab.Controls.Add(this.textBox83);
-            this.mulTab.Controls.Add(this.textBox84);
-            this.mulTab.Controls.Add(this.textBox85);
+            this.mulTab.Controls.Add(this.MatricRM_i);
+            this.mulTab.Controls.Add(this.MatricRM_h);
+            this.mulTab.Controls.Add(this.MatricRM_g);
+            this.mulTab.Controls.Add(this.MatricRM_f);
+            this.mulTab.Controls.Add(this.MatricRM_e);
+            this.mulTab.Controls.Add(this.MatricRM_d);
+            this.mulTab.Controls.Add(this.MatricRM_c);
+            this.mulTab.Controls.Add(this.MatricRM_b);
+            this.mulTab.Controls.Add(this.MatricRM_a);
             this.mulTab.Controls.Add(this.textBox86);
-            this.mulTab.Controls.Add(this.textBox87);
-            this.mulTab.Controls.Add(this.textBox88);
-            this.mulTab.Controls.Add(this.textBox89);
-            this.mulTab.Controls.Add(this.textBox90);
-            this.mulTab.Controls.Add(this.textBox91);
-            this.mulTab.Controls.Add(this.textBox92);
-            this.mulTab.Controls.Add(this.textBox93);
-            this.mulTab.Controls.Add(this.textBox94);
-            this.mulTab.Controls.Add(this.textBox95);
+            this.mulTab.Controls.Add(this.MatricM2_i);
+            this.mulTab.Controls.Add(this.MatricM2_h);
+            this.mulTab.Controls.Add(this.MatricM2_g);
+            this.mulTab.Controls.Add(this.MatricM2_f);
+            this.mulTab.Controls.Add(this.MatricM2_e);
+            this.mulTab.Controls.Add(this.MatricM2_d);
+            this.mulTab.Controls.Add(this.MatricM2_c);
+            this.mulTab.Controls.Add(this.MatricM2_b);
+            this.mulTab.Controls.Add(this.MatricM2_a);
             this.mulTab.Controls.Add(this.textBox96);
-            this.mulTab.Controls.Add(this.textBox97);
-            this.mulTab.Controls.Add(this.textBox98);
-            this.mulTab.Controls.Add(this.textBox99);
-            this.mulTab.Controls.Add(this.textBox100);
-            this.mulTab.Controls.Add(this.textBox101);
-            this.mulTab.Controls.Add(this.textBox102);
-            this.mulTab.Controls.Add(this.textBox103);
-            this.mulTab.Controls.Add(this.textBox104);
-            this.mulTab.Controls.Add(this.textBox105);
-            this.mulTab.Location = new System.Drawing.Point(4, 22);
+            this.mulTab.Controls.Add(this.MatricM1_i);
+            this.mulTab.Controls.Add(this.MatricM1_h);
+            this.mulTab.Controls.Add(this.MatricM1_g);
+            this.mulTab.Controls.Add(this.MatricM1_f);
+            this.mulTab.Controls.Add(this.MatricM1_e);
+            this.mulTab.Controls.Add(this.MatricM1_d);
+            this.mulTab.Controls.Add(this.MatricM1_c);
+            this.mulTab.Controls.Add(this.MatricM1_b);
+            this.mulTab.Controls.Add(this.MatricM1_a);
+            this.mulTab.Location = new System.Drawing.Point(4, 25);
+            this.mulTab.Margin = new System.Windows.Forms.Padding(4);
             this.mulTab.Name = "mulTab";
-            this.mulTab.Padding = new System.Windows.Forms.Padding(3);
-            this.mulTab.Size = new System.Drawing.Size(792, 289);
+            this.mulTab.Padding = new System.Windows.Forms.Padding(4);
+            this.mulTab.Size = new System.Drawing.Size(1059, 359);
             this.mulTab.TabIndex = 6;
             this.mulTab.Text = "Multiplication";
             this.mulTab.UseVisualStyleBackColor = true;
             // 
-            // label4
+            // MulLabel
             // 
-            this.label4.Location = new System.Drawing.Point(99, 167);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(210, 38);
-            this.label4.TabIndex = 62;
-            this.label4.Text = "Fill all the left and middle matrix before pressing the multiply button. ";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.MulLabel.Location = new System.Drawing.Point(132, 206);
+            this.MulLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.MulLabel.Name = "MulLabel";
+            this.MulLabel.Size = new System.Drawing.Size(280, 47);
+            this.MulLabel.TabIndex = 62;
+            this.MulLabel.Text = "Fill all the left and middle matrix before pressing the multiply button. ";
+            this.MulLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MulButton
             // 
-            this.MulButton.Location = new System.Drawing.Point(341, 167);
+            this.MulButton.Location = new System.Drawing.Point(455, 206);
+            this.MulButton.Margin = new System.Windows.Forms.Padding(4);
             this.MulButton.Name = "MulButton";
-            this.MulButton.Size = new System.Drawing.Size(75, 23);
+            this.MulButton.Size = new System.Drawing.Size(100, 28);
             this.MulButton.TabIndex = 92;
             this.MulButton.Text = "Multiply";
             this.MulButton.UseVisualStyleBackColor = true;
             this.MulButton.Click += new System.EventHandler(this.MulButton_Click);
             // 
-            // textBox77
+            // MatricRM_i
             // 
-            this.textBox77.Location = new System.Drawing.Point(592, 128);
-            this.textBox77.Name = "textBox77";
-            this.textBox77.Size = new System.Drawing.Size(46, 20);
-            this.textBox77.TabIndex = 91;
+            this.MatricRM_i.Location = new System.Drawing.Point(789, 158);
+            this.MatricRM_i.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRM_i.Name = "MatricRM_i";
+            this.MatricRM_i.Size = new System.Drawing.Size(60, 22);
+            this.MatricRM_i.TabIndex = 91;
             // 
-            // textBox78
+            // MatricRM_h
             // 
-            this.textBox78.Location = new System.Drawing.Point(540, 128);
-            this.textBox78.Name = "textBox78";
-            this.textBox78.Size = new System.Drawing.Size(46, 20);
-            this.textBox78.TabIndex = 90;
+            this.MatricRM_h.Location = new System.Drawing.Point(720, 158);
+            this.MatricRM_h.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRM_h.Name = "MatricRM_h";
+            this.MatricRM_h.Size = new System.Drawing.Size(60, 22);
+            this.MatricRM_h.TabIndex = 90;
             // 
-            // textBox79
+            // MatricRM_g
             // 
-            this.textBox79.Location = new System.Drawing.Point(488, 128);
-            this.textBox79.Name = "textBox79";
-            this.textBox79.Size = new System.Drawing.Size(46, 20);
-            this.textBox79.TabIndex = 89;
+            this.MatricRM_g.Location = new System.Drawing.Point(651, 158);
+            this.MatricRM_g.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRM_g.Name = "MatricRM_g";
+            this.MatricRM_g.Size = new System.Drawing.Size(60, 22);
+            this.MatricRM_g.TabIndex = 89;
             // 
-            // textBox80
+            // MatricRM_f
             // 
-            this.textBox80.Location = new System.Drawing.Point(592, 102);
-            this.textBox80.Name = "textBox80";
-            this.textBox80.Size = new System.Drawing.Size(46, 20);
-            this.textBox80.TabIndex = 88;
+            this.MatricRM_f.Location = new System.Drawing.Point(789, 126);
+            this.MatricRM_f.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRM_f.Name = "MatricRM_f";
+            this.MatricRM_f.Size = new System.Drawing.Size(60, 22);
+            this.MatricRM_f.TabIndex = 88;
             // 
-            // textBox81
+            // MatricRM_e
             // 
-            this.textBox81.Location = new System.Drawing.Point(540, 102);
-            this.textBox81.Name = "textBox81";
-            this.textBox81.Size = new System.Drawing.Size(46, 20);
-            this.textBox81.TabIndex = 87;
+            this.MatricRM_e.Location = new System.Drawing.Point(720, 126);
+            this.MatricRM_e.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRM_e.Name = "MatricRM_e";
+            this.MatricRM_e.Size = new System.Drawing.Size(60, 22);
+            this.MatricRM_e.TabIndex = 87;
             // 
-            // textBox82
+            // MatricRM_d
             // 
-            this.textBox82.Location = new System.Drawing.Point(488, 102);
-            this.textBox82.Name = "textBox82";
-            this.textBox82.Size = new System.Drawing.Size(46, 20);
-            this.textBox82.TabIndex = 86;
+            this.MatricRM_d.Location = new System.Drawing.Point(651, 126);
+            this.MatricRM_d.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRM_d.Name = "MatricRM_d";
+            this.MatricRM_d.Size = new System.Drawing.Size(60, 22);
+            this.MatricRM_d.TabIndex = 86;
             // 
-            // textBox83
+            // MatricRM_c
             // 
-            this.textBox83.Location = new System.Drawing.Point(592, 76);
-            this.textBox83.Name = "textBox83";
-            this.textBox83.Size = new System.Drawing.Size(46, 20);
-            this.textBox83.TabIndex = 85;
+            this.MatricRM_c.Location = new System.Drawing.Point(789, 94);
+            this.MatricRM_c.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRM_c.Name = "MatricRM_c";
+            this.MatricRM_c.Size = new System.Drawing.Size(60, 22);
+            this.MatricRM_c.TabIndex = 85;
             // 
-            // textBox84
+            // MatricRM_b
             // 
-            this.textBox84.Location = new System.Drawing.Point(540, 76);
-            this.textBox84.Name = "textBox84";
-            this.textBox84.Size = new System.Drawing.Size(46, 20);
-            this.textBox84.TabIndex = 84;
+            this.MatricRM_b.Location = new System.Drawing.Point(720, 94);
+            this.MatricRM_b.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRM_b.Name = "MatricRM_b";
+            this.MatricRM_b.Size = new System.Drawing.Size(60, 22);
+            this.MatricRM_b.TabIndex = 84;
             // 
-            // textBox85
+            // MatricRM_a
             // 
-            this.textBox85.Location = new System.Drawing.Point(488, 76);
-            this.textBox85.Name = "textBox85";
-            this.textBox85.Size = new System.Drawing.Size(46, 20);
-            this.textBox85.TabIndex = 83;
+            this.MatricRM_a.Location = new System.Drawing.Point(651, 94);
+            this.MatricRM_a.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricRM_a.Name = "MatricRM_a";
+            this.MatricRM_a.Size = new System.Drawing.Size(60, 22);
+            this.MatricRM_a.TabIndex = 83;
             // 
             // textBox86
             // 
-            this.textBox86.Location = new System.Drawing.Point(461, 102);
+            this.textBox86.Location = new System.Drawing.Point(615, 126);
+            this.textBox86.Margin = new System.Windows.Forms.Padding(4);
             this.textBox86.Name = "textBox86";
-            this.textBox86.Size = new System.Drawing.Size(14, 20);
+            this.textBox86.Size = new System.Drawing.Size(17, 22);
             this.textBox86.TabIndex = 82;
             this.textBox86.Text = "=";
             this.textBox86.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox87
+            // MatricM2_i
             // 
-            this.textBox87.Location = new System.Drawing.Point(409, 128);
-            this.textBox87.Name = "textBox87";
-            this.textBox87.Size = new System.Drawing.Size(46, 20);
-            this.textBox87.TabIndex = 81;
+            this.MatricM2_i.Location = new System.Drawing.Point(545, 158);
+            this.MatricM2_i.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM2_i.Name = "MatricM2_i";
+            this.MatricM2_i.Size = new System.Drawing.Size(60, 22);
+            this.MatricM2_i.TabIndex = 81;
             // 
-            // textBox88
+            // MatricM2_h
             // 
-            this.textBox88.Location = new System.Drawing.Point(357, 128);
-            this.textBox88.Name = "textBox88";
-            this.textBox88.Size = new System.Drawing.Size(46, 20);
-            this.textBox88.TabIndex = 80;
+            this.MatricM2_h.Location = new System.Drawing.Point(476, 158);
+            this.MatricM2_h.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM2_h.Name = "MatricM2_h";
+            this.MatricM2_h.Size = new System.Drawing.Size(60, 22);
+            this.MatricM2_h.TabIndex = 80;
             // 
-            // textBox89
+            // MatricM2_g
             // 
-            this.textBox89.Location = new System.Drawing.Point(305, 128);
-            this.textBox89.Name = "textBox89";
-            this.textBox89.Size = new System.Drawing.Size(46, 20);
-            this.textBox89.TabIndex = 79;
+            this.MatricM2_g.Location = new System.Drawing.Point(407, 158);
+            this.MatricM2_g.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM2_g.Name = "MatricM2_g";
+            this.MatricM2_g.Size = new System.Drawing.Size(60, 22);
+            this.MatricM2_g.TabIndex = 79;
             // 
-            // textBox90
+            // MatricM2_f
             // 
-            this.textBox90.Location = new System.Drawing.Point(409, 102);
-            this.textBox90.Name = "textBox90";
-            this.textBox90.Size = new System.Drawing.Size(46, 20);
-            this.textBox90.TabIndex = 78;
+            this.MatricM2_f.Location = new System.Drawing.Point(545, 126);
+            this.MatricM2_f.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM2_f.Name = "MatricM2_f";
+            this.MatricM2_f.Size = new System.Drawing.Size(60, 22);
+            this.MatricM2_f.TabIndex = 78;
             // 
-            // textBox91
+            // MatricM2_e
             // 
-            this.textBox91.Location = new System.Drawing.Point(357, 102);
-            this.textBox91.Name = "textBox91";
-            this.textBox91.Size = new System.Drawing.Size(46, 20);
-            this.textBox91.TabIndex = 77;
+            this.MatricM2_e.Location = new System.Drawing.Point(476, 126);
+            this.MatricM2_e.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM2_e.Name = "MatricM2_e";
+            this.MatricM2_e.Size = new System.Drawing.Size(60, 22);
+            this.MatricM2_e.TabIndex = 77;
             // 
-            // textBox92
+            // MatricM2_d
             // 
-            this.textBox92.Location = new System.Drawing.Point(305, 102);
-            this.textBox92.Name = "textBox92";
-            this.textBox92.Size = new System.Drawing.Size(46, 20);
-            this.textBox92.TabIndex = 76;
+            this.MatricM2_d.Location = new System.Drawing.Point(407, 126);
+            this.MatricM2_d.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM2_d.Name = "MatricM2_d";
+            this.MatricM2_d.Size = new System.Drawing.Size(60, 22);
+            this.MatricM2_d.TabIndex = 76;
             // 
-            // textBox93
+            // MatricM2_c
             // 
-            this.textBox93.Location = new System.Drawing.Point(409, 76);
-            this.textBox93.Name = "textBox93";
-            this.textBox93.Size = new System.Drawing.Size(46, 20);
-            this.textBox93.TabIndex = 75;
+            this.MatricM2_c.Location = new System.Drawing.Point(545, 94);
+            this.MatricM2_c.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM2_c.Name = "MatricM2_c";
+            this.MatricM2_c.Size = new System.Drawing.Size(60, 22);
+            this.MatricM2_c.TabIndex = 75;
             // 
-            // textBox94
+            // MatricM2_b
             // 
-            this.textBox94.Location = new System.Drawing.Point(357, 76);
-            this.textBox94.Name = "textBox94";
-            this.textBox94.Size = new System.Drawing.Size(46, 20);
-            this.textBox94.TabIndex = 74;
+            this.MatricM2_b.Location = new System.Drawing.Point(476, 94);
+            this.MatricM2_b.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM2_b.Name = "MatricM2_b";
+            this.MatricM2_b.Size = new System.Drawing.Size(60, 22);
+            this.MatricM2_b.TabIndex = 74;
             // 
-            // textBox95
+            // MatricM2_a
             // 
-            this.textBox95.Location = new System.Drawing.Point(305, 76);
-            this.textBox95.Name = "textBox95";
-            this.textBox95.Size = new System.Drawing.Size(46, 20);
-            this.textBox95.TabIndex = 73;
+            this.MatricM2_a.Location = new System.Drawing.Point(407, 94);
+            this.MatricM2_a.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM2_a.Name = "MatricM2_a";
+            this.MatricM2_a.Size = new System.Drawing.Size(60, 22);
+            this.MatricM2_a.TabIndex = 73;
             // 
             // textBox96
             // 
-            this.textBox96.Location = new System.Drawing.Point(282, 102);
+            this.textBox96.Location = new System.Drawing.Point(376, 126);
+            this.textBox96.Margin = new System.Windows.Forms.Padding(4);
             this.textBox96.Name = "textBox96";
-            this.textBox96.Size = new System.Drawing.Size(14, 20);
+            this.textBox96.Size = new System.Drawing.Size(17, 22);
             this.textBox96.TabIndex = 72;
             this.textBox96.Text = "x";
             this.textBox96.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox97
+            // MatricM1_i
             // 
-            this.textBox97.Location = new System.Drawing.Point(230, 128);
-            this.textBox97.Name = "textBox97";
-            this.textBox97.Size = new System.Drawing.Size(46, 20);
-            this.textBox97.TabIndex = 71;
+            this.MatricM1_i.Location = new System.Drawing.Point(307, 158);
+            this.MatricM1_i.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM1_i.Name = "MatricM1_i";
+            this.MatricM1_i.Size = new System.Drawing.Size(60, 22);
+            this.MatricM1_i.TabIndex = 71;
             // 
-            // textBox98
+            // MatricM1_h
             // 
-            this.textBox98.Location = new System.Drawing.Point(178, 128);
-            this.textBox98.Name = "textBox98";
-            this.textBox98.Size = new System.Drawing.Size(46, 20);
-            this.textBox98.TabIndex = 70;
+            this.MatricM1_h.Location = new System.Drawing.Point(237, 158);
+            this.MatricM1_h.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM1_h.Name = "MatricM1_h";
+            this.MatricM1_h.Size = new System.Drawing.Size(60, 22);
+            this.MatricM1_h.TabIndex = 70;
             // 
-            // textBox99
+            // MatricM1_g
             // 
-            this.textBox99.Location = new System.Drawing.Point(126, 128);
-            this.textBox99.Name = "textBox99";
-            this.textBox99.Size = new System.Drawing.Size(46, 20);
-            this.textBox99.TabIndex = 69;
+            this.MatricM1_g.Location = new System.Drawing.Point(168, 158);
+            this.MatricM1_g.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM1_g.Name = "MatricM1_g";
+            this.MatricM1_g.Size = new System.Drawing.Size(60, 22);
+            this.MatricM1_g.TabIndex = 69;
             // 
-            // textBox100
+            // MatricM1_f
             // 
-            this.textBox100.Location = new System.Drawing.Point(230, 102);
-            this.textBox100.Name = "textBox100";
-            this.textBox100.Size = new System.Drawing.Size(46, 20);
-            this.textBox100.TabIndex = 68;
+            this.MatricM1_f.Location = new System.Drawing.Point(307, 126);
+            this.MatricM1_f.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM1_f.Name = "MatricM1_f";
+            this.MatricM1_f.Size = new System.Drawing.Size(60, 22);
+            this.MatricM1_f.TabIndex = 68;
             // 
-            // textBox101
+            // MatricM1_e
             // 
-            this.textBox101.Location = new System.Drawing.Point(178, 102);
-            this.textBox101.Name = "textBox101";
-            this.textBox101.Size = new System.Drawing.Size(46, 20);
-            this.textBox101.TabIndex = 67;
+            this.MatricM1_e.Location = new System.Drawing.Point(237, 126);
+            this.MatricM1_e.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM1_e.Name = "MatricM1_e";
+            this.MatricM1_e.Size = new System.Drawing.Size(60, 22);
+            this.MatricM1_e.TabIndex = 67;
             // 
-            // textBox102
+            // MatricM1_d
             // 
-            this.textBox102.Location = new System.Drawing.Point(126, 102);
-            this.textBox102.Name = "textBox102";
-            this.textBox102.Size = new System.Drawing.Size(46, 20);
-            this.textBox102.TabIndex = 66;
+            this.MatricM1_d.Location = new System.Drawing.Point(168, 126);
+            this.MatricM1_d.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM1_d.Name = "MatricM1_d";
+            this.MatricM1_d.Size = new System.Drawing.Size(60, 22);
+            this.MatricM1_d.TabIndex = 66;
             // 
-            // textBox103
+            // MatricM1_c
             // 
-            this.textBox103.Location = new System.Drawing.Point(230, 76);
-            this.textBox103.Name = "textBox103";
-            this.textBox103.Size = new System.Drawing.Size(46, 20);
-            this.textBox103.TabIndex = 65;
+            this.MatricM1_c.Location = new System.Drawing.Point(307, 94);
+            this.MatricM1_c.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM1_c.Name = "MatricM1_c";
+            this.MatricM1_c.Size = new System.Drawing.Size(60, 22);
+            this.MatricM1_c.TabIndex = 65;
             // 
-            // textBox104
+            // MatricM1_b
             // 
-            this.textBox104.Location = new System.Drawing.Point(178, 76);
-            this.textBox104.Name = "textBox104";
-            this.textBox104.Size = new System.Drawing.Size(46, 20);
-            this.textBox104.TabIndex = 64;
+            this.MatricM1_b.Location = new System.Drawing.Point(236, 94);
+            this.MatricM1_b.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM1_b.Name = "MatricM1_b";
+            this.MatricM1_b.Size = new System.Drawing.Size(60, 22);
+            this.MatricM1_b.TabIndex = 64;
             // 
-            // textBox105
+            // MatricM1_a
             // 
-            this.textBox105.Location = new System.Drawing.Point(126, 76);
-            this.textBox105.Name = "textBox105";
-            this.textBox105.Size = new System.Drawing.Size(46, 20);
-            this.textBox105.TabIndex = 63;
+            this.MatricM1_a.Location = new System.Drawing.Point(168, 94);
+            this.MatricM1_a.Margin = new System.Windows.Forms.Padding(4);
+            this.MatricM1_a.Name = "MatricM1_a";
+            this.MatricM1_a.Size = new System.Drawing.Size(60, 22);
+            this.MatricM1_a.TabIndex = 63;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 411);
+            this.ClientSize = new System.Drawing.Size(1067, 506);
             this.Controls.Add(this.tabControl1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Matrix";
             this.tabControl1.ResumeLayout(false);
@@ -1167,122 +1285,122 @@
 
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage transTab;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label TransLabel;
+        private System.Windows.Forms.TextBox MatricT_cT;
+        private System.Windows.Forms.TextBox MatricT_bT;
+        private System.Windows.Forms.TextBox MatricT_eT;
+        private System.Windows.Forms.TextBox MatricT_fT;
+        private System.Windows.Forms.TextBox MatricT_iT;
+        private System.Windows.Forms.TextBox MatricT_hT;
+        private System.Windows.Forms.TextBox MatricT_gT;
+        private System.Windows.Forms.TextBox MatricT_dT;
+        private System.Windows.Forms.TextBox MatricT_aT;
+        private System.Windows.Forms.TextBox MatricT_g;
+        private System.Windows.Forms.TextBox MatricT_h;
+        private System.Windows.Forms.TextBox MatricT_i;
+        private System.Windows.Forms.TextBox MatricT_f;
+        private System.Windows.Forms.TextBox MatricT_e;
+        private System.Windows.Forms.TextBox MatricT_d;
+        private System.Windows.Forms.TextBox MatricT_c;
+        private System.Windows.Forms.TextBox MatricT_b;
+        private System.Windows.Forms.TextBox MatricT_a;
         private System.Windows.Forms.Button transBut;
         private System.Windows.Forms.TabPage addTab;
         private System.Windows.Forms.TabPage subTab;
         private System.Windows.Forms.TabPage mulTab;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label AddLabel;
         private System.Windows.Forms.Button AddButton;
-        private System.Windows.Forms.TextBox textBox47;
-        private System.Windows.Forms.TextBox textBox46;
-        private System.Windows.Forms.TextBox textBox45;
-        private System.Windows.Forms.TextBox textBox44;
-        private System.Windows.Forms.TextBox textBox43;
-        private System.Windows.Forms.TextBox textBox42;
-        private System.Windows.Forms.TextBox textBox41;
-        private System.Windows.Forms.TextBox textBox40;
-        private System.Windows.Forms.TextBox textBox39;
+        private System.Windows.Forms.TextBox MatricAR_i;
+        private System.Windows.Forms.TextBox MatricAR_h;
+        private System.Windows.Forms.TextBox MatricAR_g;
+        private System.Windows.Forms.TextBox MatricAR_f;
+        private System.Windows.Forms.TextBox MatricAR_e;
+        private System.Windows.Forms.TextBox MatricAR_d;
+        private System.Windows.Forms.TextBox MatricAR_c;
+        private System.Windows.Forms.TextBox MatricAR_b;
+        private System.Windows.Forms.TextBox MatricAR_a;
         private System.Windows.Forms.TextBox textBox38;
-        private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox36;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.TextBox MatricA2_i;
+        private System.Windows.Forms.TextBox MatricA2_h;
+        private System.Windows.Forms.TextBox MatricA2_g;
+        private System.Windows.Forms.TextBox MatricA2_f;
+        private System.Windows.Forms.TextBox MatricA2_e;
+        private System.Windows.Forms.TextBox MatricA2_d;
+        private System.Windows.Forms.TextBox MatricA2_c;
+        private System.Windows.Forms.TextBox MatricA2_b;
+        private System.Windows.Forms.TextBox MatricA2_a;
         private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox MatricA1_i;
+        private System.Windows.Forms.TextBox MatricA1_h;
+        private System.Windows.Forms.TextBox MatricA1_g;
+        private System.Windows.Forms.TextBox MatricA1_f;
+        private System.Windows.Forms.TextBox MatricA1_e;
+        private System.Windows.Forms.TextBox MatricA1_d;
+        private System.Windows.Forms.TextBox MatricA1_c;
+        private System.Windows.Forms.TextBox MatricA1_b;
+        private System.Windows.Forms.TextBox MatricA1_a;
+        private System.Windows.Forms.Label SubLabel;
         private System.Windows.Forms.Button SubButton;
-        private System.Windows.Forms.TextBox textBox48;
-        private System.Windows.Forms.TextBox textBox49;
-        private System.Windows.Forms.TextBox textBox50;
-        private System.Windows.Forms.TextBox textBox51;
-        private System.Windows.Forms.TextBox textBox52;
-        private System.Windows.Forms.TextBox textBox53;
-        private System.Windows.Forms.TextBox textBox54;
-        private System.Windows.Forms.TextBox textBox55;
-        private System.Windows.Forms.TextBox textBox56;
+        private System.Windows.Forms.TextBox MatricRS_i;
+        private System.Windows.Forms.TextBox MatricRS_h;
+        private System.Windows.Forms.TextBox MatricRS_g;
+        private System.Windows.Forms.TextBox MatricRS_f;
+        private System.Windows.Forms.TextBox MatricRS_e;
+        private System.Windows.Forms.TextBox MatricRS_d;
+        private System.Windows.Forms.TextBox MatricRS_c;
+        private System.Windows.Forms.TextBox MatricRS_b;
+        private System.Windows.Forms.TextBox MatricRS_a;
         private System.Windows.Forms.TextBox textBox57;
-        private System.Windows.Forms.TextBox textBox58;
-        private System.Windows.Forms.TextBox textBox59;
-        private System.Windows.Forms.TextBox textBox60;
-        private System.Windows.Forms.TextBox textBox61;
-        private System.Windows.Forms.TextBox textBox62;
-        private System.Windows.Forms.TextBox textBox63;
-        private System.Windows.Forms.TextBox textBox64;
-        private System.Windows.Forms.TextBox textBox65;
-        private System.Windows.Forms.TextBox textBox66;
+        private System.Windows.Forms.TextBox MatricS2_i;
+        private System.Windows.Forms.TextBox MatricS2_h;
+        private System.Windows.Forms.TextBox MatricS2_g;
+        private System.Windows.Forms.TextBox MatricS2_f;
+        private System.Windows.Forms.TextBox MatricS2_e;
+        private System.Windows.Forms.TextBox MatricS2_d;
+        private System.Windows.Forms.TextBox MatricS2_c;
+        private System.Windows.Forms.TextBox MatricS2_b;
+        private System.Windows.Forms.TextBox MatricS2_a;
         private System.Windows.Forms.TextBox textBox67;
-        private System.Windows.Forms.TextBox textBox68;
-        private System.Windows.Forms.TextBox textBox69;
-        private System.Windows.Forms.TextBox textBox70;
-        private System.Windows.Forms.TextBox textBox71;
-        private System.Windows.Forms.TextBox textBox72;
-        private System.Windows.Forms.TextBox textBox73;
-        private System.Windows.Forms.TextBox textBox74;
-        private System.Windows.Forms.TextBox textBox75;
-        private System.Windows.Forms.TextBox textBox76;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox MatricS1_i;
+        private System.Windows.Forms.TextBox MatricS1_h;
+        private System.Windows.Forms.TextBox MatricS1_g;
+        private System.Windows.Forms.TextBox MatricS1_f;
+        private System.Windows.Forms.TextBox MatricS1_e;
+        private System.Windows.Forms.TextBox MatricS1_d;
+        private System.Windows.Forms.TextBox MatricS1_c;
+        private System.Windows.Forms.TextBox MatricS1_b;
+        private System.Windows.Forms.TextBox MatricS1_a;
+        private System.Windows.Forms.Label MulLabel;
         private System.Windows.Forms.Button MulButton;
-        private System.Windows.Forms.TextBox textBox77;
-        private System.Windows.Forms.TextBox textBox78;
-        private System.Windows.Forms.TextBox textBox79;
-        private System.Windows.Forms.TextBox textBox80;
-        private System.Windows.Forms.TextBox textBox81;
-        private System.Windows.Forms.TextBox textBox82;
-        private System.Windows.Forms.TextBox textBox83;
-        private System.Windows.Forms.TextBox textBox84;
-        private System.Windows.Forms.TextBox textBox85;
+        private System.Windows.Forms.TextBox MatricRM_i;
+        private System.Windows.Forms.TextBox MatricRM_h;
+        private System.Windows.Forms.TextBox MatricRM_g;
+        private System.Windows.Forms.TextBox MatricRM_f;
+        private System.Windows.Forms.TextBox MatricRM_e;
+        private System.Windows.Forms.TextBox MatricRM_d;
+        private System.Windows.Forms.TextBox MatricRM_c;
+        private System.Windows.Forms.TextBox MatricRM_b;
+        private System.Windows.Forms.TextBox MatricRM_a;
         private System.Windows.Forms.TextBox textBox86;
-        private System.Windows.Forms.TextBox textBox87;
-        private System.Windows.Forms.TextBox textBox88;
-        private System.Windows.Forms.TextBox textBox89;
-        private System.Windows.Forms.TextBox textBox90;
-        private System.Windows.Forms.TextBox textBox91;
-        private System.Windows.Forms.TextBox textBox92;
-        private System.Windows.Forms.TextBox textBox93;
-        private System.Windows.Forms.TextBox textBox94;
-        private System.Windows.Forms.TextBox textBox95;
+        private System.Windows.Forms.TextBox MatricM2_i;
+        private System.Windows.Forms.TextBox MatricM2_h;
+        private System.Windows.Forms.TextBox MatricM2_g;
+        private System.Windows.Forms.TextBox MatricM2_f;
+        private System.Windows.Forms.TextBox MatricM2_e;
+        private System.Windows.Forms.TextBox MatricM2_d;
+        private System.Windows.Forms.TextBox MatricM2_c;
+        private System.Windows.Forms.TextBox MatricM2_b;
+        private System.Windows.Forms.TextBox MatricM2_a;
         private System.Windows.Forms.TextBox textBox96;
-        private System.Windows.Forms.TextBox textBox97;
-        private System.Windows.Forms.TextBox textBox98;
-        private System.Windows.Forms.TextBox textBox99;
-        private System.Windows.Forms.TextBox textBox100;
-        private System.Windows.Forms.TextBox textBox101;
-        private System.Windows.Forms.TextBox textBox102;
-        private System.Windows.Forms.TextBox textBox103;
-        private System.Windows.Forms.TextBox textBox104;
-        private System.Windows.Forms.TextBox textBox105;
+        private System.Windows.Forms.TextBox MatricM1_i;
+        private System.Windows.Forms.TextBox MatricM1_h;
+        private System.Windows.Forms.TextBox MatricM1_g;
+        private System.Windows.Forms.TextBox MatricM1_f;
+        private System.Windows.Forms.TextBox MatricM1_e;
+        private System.Windows.Forms.TextBox MatricM1_d;
+        private System.Windows.Forms.TextBox MatricM1_c;
+        private System.Windows.Forms.TextBox MatricM1_b;
+        private System.Windows.Forms.TextBox MatricM1_a;
     }
 }
 
