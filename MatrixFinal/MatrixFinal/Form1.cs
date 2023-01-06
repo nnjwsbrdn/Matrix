@@ -7,19 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MatrixFinal;
+
 
 namespace MatrixFinal
 {
     public partial class Form1 : Form
     {
+        Matrix op1 = new Matrix();
+        Matrix op2 = new Matrix();
+        Matrix result = new Matrix();
+
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void transBut_Click(object sender, EventArgs e)
@@ -36,6 +37,40 @@ namespace MatrixFinal
             array[8] = textBox9;
             if (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "")
             {
+                op1.A = Convert.ToDouble(textBox1.Text);
+                op1.B = Convert.ToDouble(textBox2.Text);
+                op1.C = Convert.ToDouble(textBox3.Text);
+                op1.D = Convert.ToDouble(textBox4.Text);
+                op1.E = Convert.ToDouble(textBox5.Text);
+                op1.F = Convert.ToDouble(textBox6.Text);
+                op1.G = Convert.ToDouble(textBox7.Text);
+                op1.H = Convert.ToDouble(textBox8.Text);
+                op1.I = Convert.ToDouble(textBox9.Text);
+
+                //Doing Transpose
+                result.A = op1.A;
+                result.B = op1.D;
+                result.C = op1.G;
+                result.D = op1.B;
+                result.E = op1.E;
+                result.F = op1.H;
+                result.G = op1.C;
+                result.H = op1.F;
+                result.I = op1.I;
+
+                textBox10.Text = result.A.ToString();
+                textBox17.Text = result.B.ToString();
+                textBox18.Text = result.C.ToString();
+
+                textBox11.Text = result.D.ToString();
+                textBox16.Text = result.E.ToString();
+                textBox15.Text = result.F.ToString();
+
+                textBox12.Text = result.G.ToString();
+                textBox13.Text = result.H.ToString();
+                textBox14.Text = result.I.ToString();
+
+                /*
                 textBox10.Text = textBox1.Text.ToString();
                 textBox17.Text = textBox2.Text.ToString();
                 textBox18.Text = textBox3.Text.ToString();
@@ -46,7 +81,7 @@ namespace MatrixFinal
 
                 textBox12.Text = textBox9.Text.ToString();
                 textBox13.Text = textBox8.Text.ToString();
-                textBox14.Text = textBox7.Text.ToString();
+                textBox14.Text = textBox7.Text.ToString();*/
             }
             else
             {
@@ -55,10 +90,6 @@ namespace MatrixFinal
             }
         }
 
-        private void textBox14_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void AddButton_Click(object sender, EventArgs e)
         {
@@ -110,11 +141,6 @@ namespace MatrixFinal
             {
                 label2.Text = "Fill ALL the boxes";
             }
-        }
-
-        private void textBox67_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -169,150 +195,6 @@ namespace MatrixFinal
             }
         }
 
-        private void textBox48_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox49_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox50_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox51_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox52_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox53_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox54_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox55_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox56_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox57_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox58_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox59_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox60_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox61_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox63_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox64_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox65_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox66_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox62_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox68_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox69_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox70_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox71_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox72_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox73_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox74_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox75_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox76_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void MulButton_Click(object sender, EventArgs e)
         {
@@ -390,6 +272,11 @@ namespace MatrixFinal
             {
                 label4.Text = "Fill ALL the boxes";
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
