@@ -47,7 +47,22 @@ namespace MatrixFinal
             array[6] = MatricT_i;
             array[7] = MatricT_h;
             array[8] = MatricT_g;
-            if (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "")
+
+
+            try
+            {
+                //statement allows the code to be tested
+                bool test = (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "");
+               
+
+            }
+            catch (Exception ex)
+            {
+                //statement allows to define a block code to be executed if an errors occurs
+                MessageBox.Show("ERROR, Please input numbers only");
+
+            }
+                //(array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "")
             {
                 trans1.A = Convert.ToDouble(MatricT_a.Text);
                 trans1.B = Convert.ToDouble(MatricT_d.Text);
@@ -93,10 +108,7 @@ namespace MatrixFinal
                 textBox13.Text = textBox8.Text.ToString();
                 textBox14.Text = textBox7.Text.ToString();*/
             }
-            else
-            {
-                TransLabel.Text = "Fill all the boxes";
-            }
+            
         }
         private void AddButton_Click(object sender, EventArgs e)
         {
@@ -121,7 +133,21 @@ namespace MatrixFinal
             array[16] = MatricA2_h;
             array[17] = MatricA2_i;
 
-            if (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "" && array[9].Text != "" && array[10].Text != "" && array[11].Text != "" && array[12].Text != "" && array[13].Text != "" && array[14].Text != "" && array[15].Text != "" && array[16].Text != "" && array[17].Text != "")
+            try
+            {
+                //statement allows the code to be tested
+                bool test = (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "");
+
+
+            }
+            catch (Exception ex)
+            {
+                //statement allows to define a block code to be executed if an errors occurs
+                MessageBox.Show("ERROR, Please input numbers only");
+
+            }
+
+            //if (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "" && array[9].Text != "" && array[10].Text != "" && array[11].Text != "" && array[12].Text != "" && array[13].Text != "" && array[14].Text != "" && array[15].Text != "" && array[16].Text != "" && array[17].Text != "")
             {
                 add1.A = Convert.ToDouble(MatricA1_a.Text);
                 add1.B = Convert.ToDouble(MatricA1_b.Text);
@@ -186,10 +212,7 @@ namespace MatrixFinal
                  MatricAR_h.Text = h.ToString();
                  MatricAR_i.Text = i.ToString(); */
             }
-            else
-            {
-                AddLabel.Text = "Fill ALL the boxes";
-            }
+          
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -215,7 +238,21 @@ namespace MatrixFinal
             array[16] = MatricS2_h;
             array[17] = MatricS2_i;
 
-            if (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "" && array[9].Text != "" && array[10].Text != "" && array[11].Text != "" && array[12].Text != "" && array[13].Text != "" && array[14].Text != "" && array[15].Text != "" && array[16].Text != "" && array[17].Text != "")
+            try
+            {
+                //statement allows the code to be tested
+                bool test = (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "");
+
+
+            }
+            catch (Exception ex)
+            {
+                //statement allows to define a block code to be executed if an errors occurs
+                MessageBox.Show("ERROR, Please input numbers only");
+
+            }
+
+            //if (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "" && array[9].Text != "" && array[10].Text != "" && array[11].Text != "" && array[12].Text != "" && array[13].Text != "" && array[14].Text != "" && array[15].Text != "" && array[16].Text != "" && array[17].Text != "")
             {
                 sub1.A = Convert.ToDouble(MatricS1_a.Text);
                 sub1.B = Convert.ToDouble(MatricS1_b.Text);
@@ -280,10 +317,7 @@ namespace MatrixFinal
                    MatricRS_h.Text = h.ToString();
                    MatricRS_i.Text = i.ToString(); */
             }
-            else
-            {
-                SubLabel.Text = "Fill ALL the boxes";
-            }
+           
         }
 
 
@@ -310,7 +344,21 @@ namespace MatrixFinal
             array[16] = MatricM2_h;
             array[17] = MatricM2_i;
 
-            if (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "" && array[9].Text != "" && array[10].Text != "" && array[11].Text != "" && array[12].Text != "" && array[13].Text != "" && array[14].Text != "" && array[15].Text != "" && array[16].Text != "" && array[17].Text != "")
+            try
+            {
+                //statement allows the code to be tested
+                bool test = (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "");
+
+
+            }
+            catch (Exception ex)
+            {
+                //statement allows to define a block code to be executed if an errors occurs
+                MessageBox.Show("ERROR, Please input numbers only");
+
+            }
+
+            //if (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "" && array[9].Text != "" && array[10].Text != "" && array[11].Text != "" && array[12].Text != "" && array[13].Text != "" && array[14].Text != "" && array[15].Text != "" && array[16].Text != "" && array[17].Text != "")
             {
                 mul1.A = Convert.ToDouble(MatricM1_a.Text);
                 mul1.B = Convert.ToDouble(MatricM1_b.Text);
@@ -401,10 +449,9 @@ namespace MatrixFinal
                    MatricRM_h.Text = h.ToString();
                    MatricRM_i.Text = i.ToString(); */
             }
-            else
-            {
-                MulLabel.Text = "Fill ALL the boxes";
-            }
+           
         }
+
+      
     }
 }
