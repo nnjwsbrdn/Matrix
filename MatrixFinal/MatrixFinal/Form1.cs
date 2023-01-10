@@ -37,32 +37,8 @@ namespace MatrixFinal
 
         private void transBut_Click(object sender, EventArgs e)
         {
-            TextBox[] array = new TextBox[9];
-            array[0] = MatricT_a;
-            array[1] = MatricT_b;
-            array[2] = MatricT_c;
-            array[3] = MatricT_d;
-            array[4] = MatricT_e;
-            array[5] = MatricT_f;
-            array[6] = MatricT_i;
-            array[7] = MatricT_h;
-            array[8] = MatricT_g;
-
 
             try
-            {
-                //statement allows the code to be tested
-                bool test = (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "");
-               
-
-            }
-            catch (Exception ex)
-            {
-                //statement allows to define a block code to be executed if an errors occurs
-                MessageBox.Show("ERROR, Please input numbers only");
-
-            }
-                //(array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "")
             {
                 trans1.A = Convert.ToDouble(MatricT_a.Text);
                 trans1.B = Convert.ToDouble(MatricT_d.Text);
@@ -73,42 +49,28 @@ namespace MatrixFinal
                 trans1.G = Convert.ToDouble(MatricT_c.Text);
                 trans1.H = Convert.ToDouble(MatricT_f.Text);
                 trans1.I = Convert.ToDouble(MatricT_i.Text);
-
-                //Doing Transpose
-                transresult.A = trans1.A;
-                transresult.B = trans1.D;
-                transresult.C = trans1.G;
-                transresult.D = trans1.B;
-                transresult.E = trans1.E;
-                transresult.F = trans1.H;
-                transresult.G = trans1.C;
-                transresult.H = trans1.F;
-                transresult.I = trans1.I;
-
-                MatricT_aT.Text = transresult.A.ToString();
-                MatricT_bT.Text = transresult.B.ToString();
-                MatricT_cT.Text = transresult.C.ToString();
-                MatricT_dT.Text = transresult.D.ToString();
-                MatricT_eT.Text = transresult.E.ToString();
-                MatricT_fT.Text = transresult.F.ToString();
-                MatricT_gT.Text = transresult.G.ToString();
-                MatricT_hT.Text = transresult.H.ToString();
-                MatricT_iT.Text = transresult.I.ToString();
-
-                /*
-                textBox10.Text = textBox1.Text.ToString();
-                textBox17.Text = textBox2.Text.ToString();
-                textBox18.Text = textBox3.Text.ToString();
-
-                textBox11.Text = textBox4.Text.ToString();
-                textBox16.Text = textBox5.Text.ToString();
-                textBox15.Text = textBox6.Text.ToString();
-
-                textBox12.Text = textBox9.Text.ToString();
-                textBox13.Text = textBox8.Text.ToString();
-                textBox14.Text = textBox7.Text.ToString();*/
             }
-            
+            catch (Exception ex)
+            {
+                //statement allows to define a block code to be executed if an errors occurs
+                MessageBox.Show("ERROR, Please put valid value only");
+
+            }
+                
+         
+            //Doing Transpose
+            transresult = trans1.Transpose();
+
+            MatricT_aT.Text = transresult.A.ToString();
+            MatricT_bT.Text = transresult.B.ToString();
+            MatricT_cT.Text = transresult.C.ToString();
+            MatricT_dT.Text = transresult.D.ToString();
+            MatricT_eT.Text = transresult.E.ToString();
+            MatricT_fT.Text = transresult.F.ToString();
+            MatricT_gT.Text = transresult.G.ToString();
+            MatricT_hT.Text = transresult.H.ToString();
+            MatricT_iT.Text = transresult.I.ToString();
+
         }
         private void AddButton_Click(object sender, EventArgs e)
         {
