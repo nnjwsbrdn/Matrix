@@ -97,20 +97,7 @@ namespace MatrixFinal
 
             try
             {
-                //statement allows the code to be tested
-                bool test = (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "");
-
-
-            }
-            catch (Exception ex)
-            {
-                //statement allows to define a block code to be executed if an errors occurs
-                MessageBox.Show("ERROR, Please input numbers only");
-
-            }
-
-            //if (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "" && array[9].Text != "" && array[10].Text != "" && array[11].Text != "" && array[12].Text != "" && array[13].Text != "" && array[14].Text != "" && array[15].Text != "" && array[16].Text != "" && array[17].Text != "")
-            {
+               
                 add1.A = Convert.ToDouble(MatricA1_a.Text);
                 add1.B = Convert.ToDouble(MatricA1_b.Text);
                 add1.C = Convert.ToDouble(MatricA1_c.Text);
@@ -131,6 +118,14 @@ namespace MatrixFinal
                 add2.H = Convert.ToDouble(MatricA2_h.Text);
                 add2.I = Convert.ToDouble(MatricA2_i.Text);
 
+            }
+            catch (Exception ex)
+            {
+                //statement allows to define a block code to be executed if an errors occurs
+                MessageBox.Show("ERROR, Please input numbers only");
+
+            }
+            
                 //Doing Addition Operation
                 addresult.A = add1.A + add2.A;
                 addresult.B = add1.B + add2.B;
@@ -151,30 +146,7 @@ namespace MatrixFinal
                 MatricAR_g.Text = addresult.G.ToString();
                 MatricAR_h.Text = addresult.H.ToString();
                 MatricAR_i.Text = addresult.I.ToString();
-
-                /* Int64 a = long.Parse(MatricA1_a.Text) + long.Parse(MatricA2_a.Text);
-                 Int64 b = Int64.Parse(MatricA1_b.Text) + Int64.Parse(MatricA2_b.Text);
-                 Int64 c = Int64.Parse(MatricA1_c.Text) + Int64.Parse(MatricA2_c.Text);
-
-                 Int64 d = Int64.Parse(MatricA1_d.Text) + Int64.Parse(MatricA2_d.Text);
-                 Int64 ee = Int64.Parse(MatricA1_e.Text) + Int64.Parse(MatricA2_e.Text);
-                 Int64 f = Int64.Parse(MatricA1_f.Text) + Int64.Parse(MatricA2_f.Text);
-                 Int64 g = Int64.Parse(MatricA1_g.Text) + Int64.Parse(MatricA2_g.Text);
-                 Int64 h = Int64.Parse(MatricA1_h.Text) + Int64.Parse(MatricA2_h.Text);
-                 Int64 i = Int64.Parse(MatricA1_i.Text) + Int64.Parse(MatricA2_i.Text);
-                 //Int64 b = Int64.Parse(textBox440.Text);
-                 //Int64 c = a + b;
-                 MatricAR_a.Text = a.ToString();
-                 MatricAR_b.Text = b.ToString();
-                 MatricAR_c.Text = c.ToString();
-                 MatricAR_d.Text = d.ToString();
-                 MatricAR_e.Text = ee.ToString();
-                 MatricAR_f.Text = f.ToString();
-                 MatricAR_g.Text = g.ToString();
-                 MatricAR_h.Text = h.ToString();
-                 MatricAR_i.Text = i.ToString(); */
-            }
-          
+                                     
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -202,20 +174,7 @@ namespace MatrixFinal
 
             try
             {
-                //statement allows the code to be tested
-                bool test = (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "");
-
-
-            }
-            catch (Exception ex)
-            {
-                //statement allows to define a block code to be executed if an errors occurs
-                MessageBox.Show("ERROR, Please input numbers only");
-
-            }
-
-            //if (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "" && array[9].Text != "" && array[10].Text != "" && array[11].Text != "" && array[12].Text != "" && array[13].Text != "" && array[14].Text != "" && array[15].Text != "" && array[16].Text != "" && array[17].Text != "")
-            {
+                
                 sub1.A = Convert.ToDouble(MatricS1_a.Text);
                 sub1.B = Convert.ToDouble(MatricS1_b.Text);
                 sub1.C = Convert.ToDouble(MatricS1_c.Text);
@@ -236,6 +195,14 @@ namespace MatrixFinal
                 sub2.H = Convert.ToDouble(MatricS2_h.Text);
                 sub2.I = Convert.ToDouble(MatricS2_i.Text);
 
+            }
+            catch (Exception ex)
+            {
+                //statement allows to define a block code to be executed if an errors occurs
+                MessageBox.Show("ERROR, Please input numbers only");
+
+            }
+         
                 //Doing Subtration Operation
                 subresult.A = sub1.A - sub2.A;
                 subresult.B = sub1.B - sub2.B;
@@ -256,30 +223,7 @@ namespace MatrixFinal
                 MatricRS_g.Text = subresult.G.ToString();
                 MatricRS_h.Text = subresult.H.ToString();
                 MatricRS_i.Text = subresult.I.ToString();
-
-                /*   Int64 a = Int64.Parse(MatricS1_a.Text) - Int64.Parse(MatricS2_a.Text);
-                   Int64 b = Int64.Parse(MatricS1_b.Text) - Int64.Parse(MatricS2_b.Text);
-                   Int64 c = Int64.Parse(MatricS1_c.Text) - Int64.Parse(MatricS2_c.Text);
-
-                   Int64 d = Int64.Parse(MatricS1_d.Text) - Int64.Parse(MatricS2_d.Text);
-                   Int64 ee = Int64.Parse(MatricS1_e.Text) - Int64.Parse(MatricS2_e.Text);
-                   Int64 f = Int64.Parse(MatricS1_f.Text) - Int64.Parse(MatricS2_f.Text);
-                   Int64 g = Int64.Parse(MatricS1_g.Text) - Int64.Parse(MatricS2_g.Text);
-                   Int64 h = Int64.Parse(MatricS1_h.Text) - Int64.Parse(MatricS2_h.Text);
-                   Int64 i = Int64.Parse(MatricS1_i.Text) - Int64.Parse(MatricS2_i.Text);
-                   //Int64 b = Int64.Parse(textBox440.Text);
-                   //Int64 c = a + b;
-                   MatricRS_a.Text = a.ToString();
-                   MatricRS_b.Text = b.ToString();
-                   MatricRS_c.Text = c.ToString();
-                   MatricRS_d.Text = d.ToString();
-                   MatricRS_e.Text = ee.ToString();
-                   MatricRS_f.Text = f.ToString();
-                   MatricRS_g.Text = g.ToString();
-                   MatricRS_h.Text = h.ToString();
-                   MatricRS_i.Text = i.ToString(); */
-            }
-           
+                                      
         }
 
 
@@ -308,20 +252,7 @@ namespace MatrixFinal
 
             try
             {
-                //statement allows the code to be tested
-                bool test = (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "");
-
-
-            }
-            catch (Exception ex)
-            {
-                //statement allows to define a block code to be executed if an errors occurs
-                MessageBox.Show("ERROR, Please input numbers only");
-
-            }
-
-            //if (array[0].Text != "" && array[1].Text != "" && array[2].Text != "" && array[3].Text != "" && array[4].Text != "" && array[5].Text != "" && array[6].Text != "" && array[7].Text != "" && array[8].Text != "" && array[9].Text != "" && array[10].Text != "" && array[11].Text != "" && array[12].Text != "" && array[13].Text != "" && array[14].Text != "" && array[15].Text != "" && array[16].Text != "" && array[17].Text != "")
-            {
+                
                 mul1.A = Convert.ToDouble(MatricM1_a.Text);
                 mul1.B = Convert.ToDouble(MatricM1_b.Text);
                 mul1.C = Convert.ToDouble(MatricM1_c.Text);
@@ -342,6 +273,14 @@ namespace MatrixFinal
                 mul2.H = Convert.ToDouble(MatricM2_h.Text);
                 mul2.I = Convert.ToDouble(MatricM2_i.Text);
 
+            }
+            catch (Exception ex)
+            {
+                //statement allows to define a block code to be executed if an errors occurs
+                MessageBox.Show("ERROR, Please input numbers only");
+
+            }
+           
                 //Doing Multiplication Operation
                 mulresult.A =  (mul1.A * mul2.A) + ( mul1.B * mul2.D) + ( mul1.C * mul2.G );
                 mulresult.B =  (mul1.A * mul2.B) + ( mul1.B * mul2.E) + ( mul1.C * mul2.H );
@@ -362,55 +301,6 @@ namespace MatrixFinal
                 MatricRM_g.Text = mulresult.G.ToString();
                 MatricRM_h.Text = mulresult.H.ToString();
                 MatricRM_i.Text = mulresult.I.ToString();
-
-                /*   Int64 a = (Int64.Parse(MatricM1_a.Text) * Int64.Parse(MatricM2_a.Text)) +
-                             (Int64.Parse(MatricM1_b.Text) * Int64.Parse(MatricM2_d.Text)) +
-                             (Int64.Parse(MatricM1_c.Text) * Int64.Parse(MatricM2_g.Text));
-
-                   Int64 b = (Int64.Parse(MatricM1_a.Text) * Int64.Parse(MatricM2_b.Text)) +
-                             (Int64.Parse(MatricM1_b.Text) * Int64.Parse(MatricM2_e.Text)) +
-                             (Int64.Parse(MatricM1_c.Text) * Int64.Parse(MatricM2_h.Text));
-
-                   Int64 c = (Int64.Parse(MatricM1_a.Text) * Int64.Parse(MatricM2_c.Text)) +
-                             (Int64.Parse(MatricM1_b.Text) * Int64.Parse(MatricM2_f.Text)) +
-                             (Int64.Parse(MatricM1_c.Text) * Int64.Parse(MatricM2_i.Text));
-
-                   Int64 d = (Int64.Parse(MatricM1_d.Text) * Int64.Parse(MatricM2_a.Text)) +
-                             (Int64.Parse(MatricM1_e.Text) * Int64.Parse(MatricM2_d.Text)) +
-                             (Int64.Parse(MatricM1_f.Text) * Int64.Parse(MatricM2_g.Text));
-
-                   Int64 ee = (Int64.Parse(MatricM1_d.Text) * Int64.Parse(MatricM2_b.Text)) +
-                             (Int64.Parse(MatricM1_e.Text) * Int64.Parse(MatricM2_e.Text)) +
-                             (Int64.Parse(MatricM1_f.Text) * Int64.Parse(MatricM2_h.Text));
-
-                   Int64 f = (Int64.Parse(MatricM1_d.Text) * Int64.Parse(MatricM2_c.Text)) +
-                             (Int64.Parse(MatricM1_e.Text) * Int64.Parse(MatricM2_f.Text)) +
-                             (Int64.Parse(MatricM1_f.Text) * Int64.Parse(MatricM2_i.Text));
-
-                   Int64 g = (Int64.Parse(MatricM1_g.Text) * Int64.Parse(MatricM2_a.Text)) +
-                             (Int64.Parse(MatricM1_h.Text) * Int64.Parse(MatricM2_d.Text)) +
-                             (Int64.Parse(MatricM1_i.Text) * Int64.Parse(MatricM2_g.Text));
-
-                   Int64 h = (Int64.Parse(MatricM1_g.Text) * Int64.Parse(MatricM2_b.Text)) +
-                             (Int64.Parse(MatricM1_h.Text) * Int64.Parse(MatricM2_e.Text)) +
-                             (Int64.Parse(MatricM1_i.Text) * Int64.Parse(MatricM2_h.Text));
-
-                   Int64 i = (Int64.Parse(MatricM1_g.Text) * Int64.Parse(MatricM2_c.Text)) +
-                             (Int64.Parse(MatricM1_h.Text) * Int64.Parse(MatricM2_f.Text)) +
-                             (Int64.Parse(MatricM1_i.Text) * Int64.Parse(MatricM2_i.Text));
-
-                   //Int64 b = Int64.Parse(textBox440.Text);
-                   //Int64 c = a + b;
-                   MatricRM_a.Text = a.ToString();
-                   MatricRM_b.Text = b.ToString();
-                   MatricRM_c.Text = c.ToString();
-                   MatricRM_d.Text = d.ToString();
-                   MatricRM_e.Text = ee.ToString();
-                   MatricRM_f.Text = f.ToString();
-                   MatricRM_g.Text = g.ToString();
-                   MatricRM_h.Text = h.ToString();
-                   MatricRM_i.Text = i.ToString(); */
-            }
            
         }
 
