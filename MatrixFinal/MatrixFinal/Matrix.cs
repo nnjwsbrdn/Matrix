@@ -76,5 +76,24 @@ namespace MatrixFinal
             _H = 0;
             _I = 0;
         }
+
+        public Matrix Transpose()
+        {
+            Matrix temp = new Matrix();
+
+            temp.A = _A;
+            temp.B = _D;
+            temp.C = _G;
+            temp.D = _B;
+            temp.E = _E;
+            temp.F = _H;
+            temp.G = _C;
+            temp.H = _F;
+            temp.I = _I;
+
+            return temp;
+        }
+
+       
     }
 }
