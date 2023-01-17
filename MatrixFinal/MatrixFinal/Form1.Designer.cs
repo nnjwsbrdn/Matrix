@@ -83,6 +83,7 @@
             this.MatricA1_b = new System.Windows.Forms.TextBox();
             this.MatricA1_a = new System.Windows.Forms.TextBox();
             this.subTab = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SubLabel = new System.Windows.Forms.Label();
             this.SubButton = new System.Windows.Forms.Button();
@@ -114,6 +115,8 @@
             this.MatricS1_b = new System.Windows.Forms.TextBox();
             this.MatricS1_a = new System.Windows.Forms.TextBox();
             this.mulTab = new System.Windows.Forms.TabPage();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.MulLabel = new System.Windows.Forms.Label();
             this.MulButton = new System.Windows.Forms.Button();
             this.MatricRM_i = new System.Windows.Forms.TextBox();
@@ -143,9 +146,6 @@
             this.MatricM1_c = new System.Windows.Forms.TextBox();
             this.MatricM1_b = new System.Windows.Forms.TextBox();
             this.MatricM1_a = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.transTab.SuspendLayout();
             this.addTab.SuspendLayout();
@@ -329,6 +329,7 @@
             this.MatricT_a.Name = "MatricT_a";
             this.MatricT_a.Size = new System.Drawing.Size(46, 20);
             this.MatricT_a.TabIndex = 0;
+
             // 
             // transBut
             // 
@@ -649,6 +650,15 @@
             this.subTab.Text = "Subtraction";
             this.subTab.UseVisualStyleBackColor = true;
             // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(453, 117);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(15, 15);
+            this.label3.TabIndex = 63;
+            this.label3.Text = "=";
+            // 
             // label2
             // 
             this.label2.CausesValidation = false;
@@ -909,6 +919,25 @@
             this.mulTab.Text = "Multiplication";
             this.mulTab.UseVisualStyleBackColor = true;
             // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(461, 102);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(15, 15);
+            this.label5.TabIndex = 94;
+            this.label5.Text = "=";
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(284, 99);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(15, 23);
+            this.label4.TabIndex = 93;
+            this.label4.Text = "x";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // MulLabel
             // 
             this.MulLabel.Location = new System.Drawing.Point(99, 167);
@@ -1116,34 +1145,6 @@
             this.MatricM1_a.Name = "MatricM1_a";
             this.MatricM1_a.Size = new System.Drawing.Size(46, 20);
             this.MatricM1_a.TabIndex = 63;
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(453, 117);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(15, 15);
-            this.label3.TabIndex = 63;
-            this.label3.Text = "=";
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(284, 99);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(15, 23);
-            this.label4.TabIndex = 93;
-            this.label4.Text = "x";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(461, 102);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(15, 15);
-            this.label5.TabIndex = 94;
-            this.label5.Text = "=";
             // 
             // Form1
             // 

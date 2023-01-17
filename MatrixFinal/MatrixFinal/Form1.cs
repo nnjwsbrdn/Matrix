@@ -56,8 +56,7 @@ namespace MatrixFinal
                 MessageBox.Show("ERROR, Please put valid value only");
 
             }
-                
-         
+                         
             //Doing Transpose
             transresult = trans1.Transpose();
 
@@ -127,15 +126,7 @@ namespace MatrixFinal
             }
             
                 //Doing Addition Operation
-                addresult.A = add1.A + add2.A;
-                addresult.B = add1.B + add2.B;
-                addresult.C = add1.C + add2.C;
-                addresult.D = add1.D + add2.D;
-                addresult.E = add1.E + add2.E;
-                addresult.F = add1.F + add2.F;
-                addresult.G = add1.G + add2.G;
-                addresult.H = add1.H + add2.H;
-                addresult.I = add1.I + add2.I;
+                addresult = add1 + add2;
 
                 MatricAR_a.Text = addresult.A.ToString();
                 MatricAR_b.Text = addresult.B.ToString();
@@ -204,15 +195,7 @@ namespace MatrixFinal
             }
          
                 //Doing Subtration Operation
-                subresult.A = sub1.A - sub2.A;
-                subresult.B = sub1.B - sub2.B;
-                subresult.C = sub1.C - sub2.C;
-                subresult.D = sub1.D - sub2.D;
-                subresult.E = sub1.E - sub2.E;
-                subresult.F = sub1.F - sub2.F;
-                subresult.G = sub1.G - sub2.G;
-                subresult.H = sub1.H - sub2.H;
-                subresult.I = sub1.I - sub2.I;
+                subresult = sub1 - sub2;    
 
                 MatricRS_a.Text = subresult.A.ToString();
                 MatricRS_b.Text = subresult.B.ToString();
@@ -282,15 +265,7 @@ namespace MatrixFinal
             }
            
                 //Doing Multiplication Operation
-                mulresult.A =  (mul1.A * mul2.A) + ( mul1.B * mul2.D) + ( mul1.C * mul2.G );
-                mulresult.B =  (mul1.A * mul2.B) + ( mul1.B * mul2.E) + ( mul1.C * mul2.H );
-                mulresult.C =  (mul1.A * mul2.C) + ( mul1.B * mul2.F) + ( mul1.C * mul2.I );
-                mulresult.D =  (mul1.D * mul2.A) + ( mul1.E * mul2.D) + ( mul1.F * mul2.G );
-                mulresult.E =  (mul1.D * mul2.B) + ( mul1.E * mul2.E) + ( mul1.F * mul2.H );
-                mulresult.F =  (mul1.D * mul2.C) + ( mul1.E * mul2.F) + ( mul1.F * mul2.I );
-                mulresult.G =  (mul1.G * mul2.A) + ( mul1.H * mul2.D) + ( mul1.I * mul2.G );
-                mulresult.H =  (mul1.G * mul2.B) + ( mul1.H * mul2.E) + ( mul1.I * mul2.H );
-                mulresult.I =  (mul1.G * mul2.C) + ( mul1.H * mul2.F) + ( mul1.I * mul2.I );
+                mulresult = mul1 * mul2;
 
                 MatricRM_a.Text = mulresult.A.ToString();
                 MatricRM_b.Text = mulresult.B.ToString();
@@ -304,6 +279,6 @@ namespace MatrixFinal
            
         }
 
-      
+ 
     }
 }
