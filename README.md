@@ -1,4 +1,6 @@
-# The GUI version based on Matrix project at:
+# Matrix 3x3
+
+The GUI version of the DLL based Matrix project at:
 
 https://github.com/nnjwsbrdn/Matrix
 
@@ -288,25 +290,26 @@ namespace MatrixFinal
     }
 }
 
-##__Gold Standard__
+## Gold Standard
 
-The Gold Standard of this project is
+The Gold Standard of this project is to determine the transpose and to calculate the multiplication, substraction and addition of the matrix.
+
 GUI [ Transpose ]
 
 ![Transpose](https://user-images.githubusercontent.com/116859559/215106446-9bdb18e7-efa8-4270-9c65-59b254d45111.png)
-
+The matrix value that been input will interchange it row into column and column into row to form transpose
 GUI [ Addition ]
 
 ![Addition](https://user-images.githubusercontent.com/116859559/215106568-4ff7f682-fa4f-4e72-a7b3-ae721a208a38.png)
-
+The input value undergo the operation of adding two matrices by adding the corresponding entries together.
 GUI [ Substraction ]
 
 ![Subtraction](https://user-images.githubusercontent.com/116859559/215106649-402a157b-7343-443a-af84-a5f0b9622f67.png)
-
+The input value undergo the operation of substraction two matrices by substract the corresponding entries together.
 GUI [ Multiplication ]
 
 ![Multiplication](https://user-images.githubusercontent.com/116859559/215106688-a78e2b6b-fb8d-4882-a7f8-690f6fbf25f6.png)
-
+The input value been multiply to form 3x3 matrix
 
 
 The Library version based on Matrix project at:
@@ -687,3 +690,8 @@ namespace UnitTestProject1
 
     }
 }
+
+Team members:
+1) Najwa binti Sabaruddin 
+2) Muhammad Faiz bin Fauzi
+3) Muhammad Syarqawi Bin Sazali
