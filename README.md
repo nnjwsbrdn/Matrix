@@ -1,4 +1,4 @@
-The GUI version based on Matrix project at:
+#The GUI version based on Matrix project at:
 
 https://github.com/nnjwsbrdn/Matrix
 
@@ -288,8 +288,9 @@ namespace MatrixFinal
     }
 }
 
-__Gold Standard__
+##__Gold Standard__
 
+The Gold Standard of this project is
 GUI [ Transpose ]
 
 ![Transpose](https://user-images.githubusercontent.com/116859559/215106446-9bdb18e7-efa8-4270-9c65-59b254d45111.png)
