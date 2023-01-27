@@ -1,4 +1,4 @@
-#The GUI version based on Matrix project at:
+# The GUI version based on Matrix project at:
 
 https://github.com/nnjwsbrdn/Matrix
 
