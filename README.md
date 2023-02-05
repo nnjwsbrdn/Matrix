@@ -39,6 +39,7 @@ https://github.com/syarqawi27/MatrxiLib
 
 ### Content in Library :
 1. Properties\
+ 
 -Get Set 
 public partial class Matrix
     {
@@ -49,7 +50,8 @@ public partial class Matrix
             get { return _A; }
             set { _A = value; }
         }
-3. Constructor\
+2. Constructor\
+
 -contructor for 3x3 matrices
  public Matrix()
         {
@@ -65,6 +67,7 @@ public partial class Matrix
         }
         
 3. Operation\
+
 -Transpose (method of interchange rows into columns and columns into rows)
  public Matrix Transpose()
         {
