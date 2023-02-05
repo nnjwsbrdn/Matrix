@@ -39,7 +39,7 @@ https://github.com/syarqawi27/MatrxiLib
 
 ### Content in Library :
 1. Properties
-*Get Set 
+-Get Set 
 public partial class Matrix
     {
         double _A, 
@@ -50,7 +50,7 @@ public partial class Matrix
             set { _A = value; }
         }
 3. Constructor
-*contructor for 3x3 matrices
+-contructor for 3x3 matrices
  public Matrix()
         {
             _A = 0;
@@ -65,7 +65,7 @@ public partial class Matrix
         }
         
 3. Operation
-* Transpose (method of interchange rows into columns and columns into rows)
+-Transpose (method of interchange rows into columns and columns into rows)
  public Matrix Transpose()
         {
             Matrix temp = new Matrix();
@@ -82,7 +82,7 @@ public partial class Matrix
 
             return temp;
         }
-* Adittion (operation of adding two matrices by adding the corresponding entries together)
+- Adittion (operation of adding two matrices by adding the corresponding entries together)
  public static Matrix operator +(Matrix op1, Matrix op2) 
         {
             Matrix temp = new Matrix();
@@ -100,7 +100,7 @@ public partial class Matrix
             return temp;
 
         }
- * Substraction (operation of substracting two matrices by substract the corresponding entries together)
+ - Substraction (operation of substracting two matrices by substract the corresponding entries together)
 public static Matrix operator -(Matrix op1, Matrix op2)
         {
             Matrix temp = new Matrix();
