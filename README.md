@@ -38,7 +38,7 @@ The input value been multiply to form 3x3 matrix
 https://github.com/syarqawi27/MatrxiLib
 
 ### Content in Library :
-1. Properties
+1. Properties\
 -Get Set 
 public partial class Matrix
     {
@@ -49,7 +49,7 @@ public partial class Matrix
             get { return _A; }
             set { _A = value; }
         }
-3. Constructor
+3. Constructor\
 -contructor for 3x3 matrices
  public Matrix()
         {
@@ -64,7 +64,7 @@ public partial class Matrix
             _I = 0;
         }
         
-3. Operation
+3. Operation\
 -Transpose (method of interchange rows into columns and columns into rows)
  public Matrix Transpose()
         {
@@ -118,7 +118,7 @@ public static Matrix operator -(Matrix op1, Matrix op2)
             return temp;
 
         }
- * Multiplication (operation of multiply two matrices by multiply the corresponding entries base on it scalar together)
+ - Multiplication (operation of multiply two matrices by multiply the corresponding entries base on it scalar together)
  public static Matrix operator *(Matrix op1, Matrix op2)
         {
 
