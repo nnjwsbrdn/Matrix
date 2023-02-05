@@ -1,11 +1,11 @@
-Matrix 3x3
+## Matrix 3x3
 
 __Team members:__
 1) Najwa binti Sabaruddin 
 2) Muhammad Faiz bin Fauzi
 3) Muhammad Syarqawi Bin Sazali
 
-The GUI version of the DLL based Matrix project at:
+## GUI Version of the DLL based Matrix 
 
 https://github.com/nnjwsbrdn/Matrix
 
@@ -33,7 +33,7 @@ __GUI [ Multiplication ]__
 ![Multiplication](https://user-images.githubusercontent.com/116859559/215106688-a78e2b6b-fb8d-4882-a7f8-690f6fbf25f6.png)
 The input value been multiply to form 3x3 matrix
 
-The Library version based on Matrix project at:
+## Library Version based on Matrix project at:
 
 https://github.com/syarqawi27/MatrxiLib
 
