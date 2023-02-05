@@ -1,9 +1,9 @@
 ## Matrix 3x3
 
 __Team members:__
-1) Najwa binti Sabaruddin 
-2) Muhammad Faiz bin Fauzi
-3) Muhammad Syarqawi Bin Sazali
+1) Najwa binti Sabaruddin [2190171 ]
+2) Muhammad Faiz bin Fauzi [ 2190185 ]
+3) Muhammad Syarqawi Bin Sazali [ 2190771 ]
 
 ## Matrix GUI
 
