@@ -7,8 +7,6 @@ __Team members:__
 
 ## Matrix GUI
 
-Result From GUI:
-
 __GUI [ Transpose ]__
 
 ![Screenshot 2023-02-05 203427](https://user-images.githubusercontent.com/116859559/216820002-ac1bb060-7d95-4fda-93b5-db0b013428bf.png)
